@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A90251DC179004FD591 /* 1.两数之和.swift */; };
+		ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */; };
+		ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A96251DDFB4004FD591 /* 283.移动零.swift */; };
+		ED380A9A251DEDB2004FD591 /* 70.爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A99251DEDB2004FD591 /* 70.爬楼梯.swift */; };
 		ED5529132514B4C800B225F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5529122514B4C800B225F8 /* main.swift */; };
+		ED55291A2514B4F800B225F8 /* 146.lru缓存机制.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5529192514B4F800B225F8 /* 146.lru缓存机制.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED380A90251DC179004FD591 /* 1.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
+		ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11.盛最多水的容器.swift"; sourceTree = "<group>"; };
+		ED380A96251DDFB4004FD591 /* 283.移动零.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "283.移动零.swift"; sourceTree = "<group>"; };
+		ED380A99251DEDB2004FD591 /* 70.爬楼梯.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "70.爬楼梯.swift"; sourceTree = "<group>"; };
 		ED55290F2514B4C800B225F8 /* LeetCodeTrain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeTrain; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5529122514B4C800B225F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ED5529192514B4F800B225F8 /* 146.lru缓存机制.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "146.lru缓存机制.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				ED5529122514B4C800B225F8 /* main.swift */,
+				ED5529192514B4F800B225F8 /* 146.lru缓存机制.swift */,
+				ED380A90251DC179004FD591 /* 1.两数之和.swift */,
+				ED380A96251DDFB4004FD591 /* 283.移动零.swift */,
+				ED380A99251DEDB2004FD591 /* 70.爬楼梯.swift */,
+				ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */,
 			);
 			path = LeetCodeTrain;
 			sourceTree = "<group>";
@@ -121,6 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED5529132514B4C800B225F8 /* main.swift in Sources */,
+				ED380A9A251DEDB2004FD591 /* 70.爬楼梯.swift in Sources */,
+				ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */,
+				ED55291A2514B4F800B225F8 /* 146.lru缓存机制.swift in Sources */,
+				ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */,
+				ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
