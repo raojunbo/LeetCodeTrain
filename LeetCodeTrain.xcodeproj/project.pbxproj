@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3414B29025391452008A4C67 /* 24.两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414B28F25391452008A4C67 /* 24.两两交换链表中的节点.swift */; };
+		343411C4253C779000887E80 /* 141.环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343411C3253C779000887E80 /* 141.环形链表.swift */; };
+		343411C7253C8A3F00887E80 /* 142.环形链表-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343411C6253C8A3F00887E80 /* 142.环形链表-ii.swift */; };
+		343411CA253C93E000887E80 /* 25.k-个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */; };
+		3439DBD5254DAF2300B88924 /* MyPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3439DBD4254DAF2300B88924 /* MyPerson.m */; };
+		344667B425345E38005654F4 /* 15.三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344667B325345E38005654F4 /* 15.三数之和.swift */; };
+		344EED19254EB7FE00B083FE /* 88.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */; };
+		344EED1C254EC76500B083FE /* 66.加一.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED1B254EC76500B083FE /* 66.加一.swift */; };
+		344EED1F254ECC7700B083FE /* 20.有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED1E254ECC7700B083FE /* 20.有效的括号.swift */; };
+		344EED22254ED3FE00B083FE /* 155.最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED21254ED3FE00B083FE /* 155.最小栈.swift */; };
+		344EED25254EE5FA00B083FE /* 84.柱状图中最大的矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED24254EE5FA00B083FE /* 84.柱状图中最大的矩形.swift */; };
+		344EED28254EED2C00B083FE /* 239.滑动窗口最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED27254EED2C00B083FE /* 239.滑动窗口最大值.swift */; };
+		3451406C25371F3500DC3CC0 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3451406B25371F3500DC3CC0 /* 206.反转链表.swift */; };
+		34560509254798E000E27201 /* 189.旋转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34560508254798E000E27201 /* 189.旋转数组.swift */; };
+		34A5AD39254A3359006CB80F /* 21.合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5AD38254A3359006CB80F /* 21.合并两个有序链表.swift */; };
+		34A783E525583FD9002A5294 /* 641.设计循环双端队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A783E425583FD9002A5294 /* 641.设计循环双端队列.swift */; };
+		34FEB49325409D5700B3A94E /* 26.删除排序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */; };
 		ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A90251DC179004FD591 /* 1.两数之和.swift */; };
 		ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */; };
 		ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A96251DDFB4004FD591 /* 283.移动零.swift */; };
@@ -28,6 +45,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3414B28F25391452008A4C67 /* 24.两两交换链表中的节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "24.两两交换链表中的节点.swift"; sourceTree = "<group>"; };
+		343411C3253C779000887E80 /* 141.环形链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "141.环形链表.swift"; sourceTree = "<group>"; };
+		343411C6253C8A3F00887E80 /* 142.环形链表-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "142.环形链表-ii.swift"; sourceTree = "<group>"; };
+		343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "25.k-个一组翻转链表.swift"; sourceTree = "<group>"; };
+		3439DBD2254DAF2200B88924 /* LeetCodeTrain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeetCodeTrain-Bridging-Header.h"; sourceTree = "<group>"; };
+		3439DBD3254DAF2300B88924 /* MyPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPerson.h; sourceTree = "<group>"; };
+		3439DBD4254DAF2300B88924 /* MyPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPerson.m; sourceTree = "<group>"; };
+		344667B325345E38005654F4 /* 15.三数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "15.三数之和.swift"; sourceTree = "<group>"; };
+		344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "88.合并两个有序数组.swift"; sourceTree = "<group>"; };
+		344EED1B254EC76500B083FE /* 66.加一.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "66.加一.swift"; sourceTree = "<group>"; };
+		344EED1E254ECC7700B083FE /* 20.有效的括号.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "20.有效的括号.swift"; sourceTree = "<group>"; };
+		344EED21254ED3FE00B083FE /* 155.最小栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "155.最小栈.swift"; sourceTree = "<group>"; };
+		344EED24254EE5FA00B083FE /* 84.柱状图中最大的矩形.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "84.柱状图中最大的矩形.swift"; sourceTree = "<group>"; };
+		344EED27254EED2C00B083FE /* 239.滑动窗口最大值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "239.滑动窗口最大值.swift"; sourceTree = "<group>"; };
+		3451406B25371F3500DC3CC0 /* 206.反转链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "206.反转链表.swift"; sourceTree = "<group>"; };
+		34560508254798E000E27201 /* 189.旋转数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "189.旋转数组.swift"; sourceTree = "<group>"; };
+		34A5AD38254A3359006CB80F /* 21.合并两个有序链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "21.合并两个有序链表.swift"; sourceTree = "<group>"; };
+		34A783E425583FD9002A5294 /* 641.设计循环双端队列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "641.设计循环双端队列.swift"; sourceTree = "<group>"; };
+		34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "26.删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
 		ED380A90251DC179004FD591 /* 1.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
 		ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11.盛最多水的容器.swift"; sourceTree = "<group>"; };
 		ED380A96251DDFB4004FD591 /* 283.移动零.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "283.移动零.swift"; sourceTree = "<group>"; };
@@ -68,11 +104,30 @@
 			isa = PBXGroup;
 			children = (
 				ED5529122514B4C800B225F8 /* main.swift */,
+				3439DBD3254DAF2300B88924 /* MyPerson.h */,
+				3439DBD4254DAF2300B88924 /* MyPerson.m */,
 				ED5529192514B4F800B225F8 /* 146.lru缓存机制.swift */,
+				344667B325345E38005654F4 /* 15.三数之和.swift */,
 				ED380A90251DC179004FD591 /* 1.两数之和.swift */,
 				ED380A96251DDFB4004FD591 /* 283.移动零.swift */,
+				3451406B25371F3500DC3CC0 /* 206.反转链表.swift */,
+				344EED1B254EC76500B083FE /* 66.加一.swift */,
+				34A783E425583FD9002A5294 /* 641.设计循环双端队列.swift */,
+				344EED1E254ECC7700B083FE /* 20.有效的括号.swift */,
+				344EED21254ED3FE00B083FE /* 155.最小栈.swift */,
+				344EED24254EE5FA00B083FE /* 84.柱状图中最大的矩形.swift */,
+				344EED27254EED2C00B083FE /* 239.滑动窗口最大值.swift */,
+				3414B28F25391452008A4C67 /* 24.两两交换链表中的节点.swift */,
+				34A5AD38254A3359006CB80F /* 21.合并两个有序链表.swift */,
+				344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */,
+				34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */,
+				34560508254798E000E27201 /* 189.旋转数组.swift */,
+				343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */,
+				343411C6253C8A3F00887E80 /* 142.环形链表-ii.swift */,
+				343411C3253C779000887E80 /* 141.环形链表.swift */,
 				ED380A99251DEDB2004FD591 /* 70.爬楼梯.swift */,
 				ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */,
+				3439DBD2254DAF2200B88924 /* LeetCodeTrain-Bridging-Header.h */,
 			);
 			path = LeetCodeTrain;
 			sourceTree = "<group>";
@@ -109,6 +164,7 @@
 				TargetAttributes = {
 					ED55290E2514B4C800B225F8 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -135,11 +191,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				344EED1F254ECC7700B083FE /* 20.有效的括号.swift in Sources */,
+				343411C4253C779000887E80 /* 141.环形链表.swift in Sources */,
+				343411CA253C93E000887E80 /* 25.k-个一组翻转链表.swift in Sources */,
+				3439DBD5254DAF2300B88924 /* MyPerson.m in Sources */,
+				343411C7253C8A3F00887E80 /* 142.环形链表-ii.swift in Sources */,
+				3414B29025391452008A4C67 /* 24.两两交换链表中的节点.swift in Sources */,
 				ED5529132514B4C800B225F8 /* main.swift in Sources */,
+				34FEB49325409D5700B3A94E /* 26.删除排序数组中的重复项.swift in Sources */,
 				ED380A9A251DEDB2004FD591 /* 70.爬楼梯.swift in Sources */,
 				ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */,
+				344667B425345E38005654F4 /* 15.三数之和.swift in Sources */,
 				ED55291A2514B4F800B225F8 /* 146.lru缓存机制.swift in Sources */,
 				ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */,
+				344EED1C254EC76500B083FE /* 66.加一.swift in Sources */,
+				3451406C25371F3500DC3CC0 /* 206.反转链表.swift in Sources */,
+				344EED25254EE5FA00B083FE /* 84.柱状图中最大的矩形.swift in Sources */,
+				34560509254798E000E27201 /* 189.旋转数组.swift in Sources */,
+				344EED22254ED3FE00B083FE /* 155.最小栈.swift in Sources */,
+				344EED19254EB7FE00B083FE /* 88.合并两个有序数组.swift in Sources */,
+				34A783E525583FD9002A5294 /* 641.设计循环双端队列.swift in Sources */,
+				34A5AD39254A3359006CB80F /* 21.合并两个有序链表.swift in Sources */,
+				344EED28254EED2C00B083FE /* 239.滑动窗口最大值.swift in Sources */,
 				ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +336,18 @@
 		ED5529172514B4C800B225F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7386VQTH7S;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeetCodeTrain/LeetCodeTrain-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -274,10 +355,17 @@
 		ED5529182514B4C800B225F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7386VQTH7S;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeetCodeTrain/LeetCodeTrain-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
