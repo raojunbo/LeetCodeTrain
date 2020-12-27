@@ -7,12 +7,4 @@
 //
 
 import Foundation
-
-class Person {
-    
-}
-let jj = Person().self  //对象所属的类型
-let ll:Person.Type = Person.self //类所属的类型
-class_getInstanceSize(Person.self)
-
-
+Solution322.test()
