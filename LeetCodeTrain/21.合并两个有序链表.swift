@@ -47,8 +47,11 @@ class Solution21 {
         return preHead?.next
     }
     
+    // 采用分治法
+    // 合并链表：子问题为合并两个很小的链表，这两个小链表最终有解法。
+    // 整个的思想，就是我想合并两个链表，当前头比较已经出来，我只需要合并剩下的两个链表，以此类推。
+    // 这就是一种分治的思想
     func mergeTwoLists2(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
-        //采用递归法
         guard let tmpl1 = l1 else {
             return l2
         }
@@ -57,19 +60,19 @@ class Solution21 {
         }
         
         if tmpl1.val <= tmpl2.val {
-            tmpl1.next = mergeTwoLists(tmpl1.next, tmpl2)
+            tmpl1.next = mergeTwoLists2(tmpl1.next, tmpl2)
             return tmpl1
         }else {
-            tmpl2.next = mergeTwoLists(tmpl1, tmpl2.next)
+            tmpl2.next = mergeTwoLists2(tmpl1, tmpl2.next)
             return tmpl2
         }
     }
     
-    
+
     class func test()  {
         let link1 = createLink(begin: 1,end: 5)
         let link2 = createLink(begin: 3,end: 9)
-        let head:ListNode? =  Solution21().mergeTwoLists(link1, link2)
+        let head:ListNode? =  Solution21().mergeTwoLists2(link1, link2)
         var cur:ListNode? = head
         while cur != nil {
             print(cur?.val ?? "")
