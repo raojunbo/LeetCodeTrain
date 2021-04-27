@@ -43,6 +43,19 @@ class Solution122 {
 //        return dp[prices.count][0]
     }
     
+    // 买卖股票的最佳时机: 练习2
+    // 要求是更多的买卖
+    // 这实际上是一种动态规划
+    // 怎么去定义dp的状态转移方程
+    // 定义dp的初始值
+    
+    // 当天结束时的利润
+    // dp[[i] = dp[i - 1] 
+    
+    func maxProfit3() {
+        
+    }
+    
     static func test() {
         let array = [7,1,5,3,6,4]
         let result = Solution122().maxProfit2(array)

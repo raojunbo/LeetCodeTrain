@@ -48,6 +48,18 @@ class Solution236 {
         }
         return root
     }
+    // 第二次练习
+    func lowestCommonAncestor2(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+        
+    }
+    static func test() {
+       let solution = Solution236()
+        let root = TreeNode()
+        let p = TreeNode()
+        let q = TreeNode()
+        
+       let r =  solution.lowestCommonAncestor2(root, p, q)
+    }
 }
 // @lc code=end
 

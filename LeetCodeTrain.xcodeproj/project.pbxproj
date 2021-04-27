@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		340B0CD025729FDD00AD790A /* hannota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340B0CCF25729FDD00AD790A /* hannota.swift */; };
 		3414B29025391452008A4C67 /* 24.两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414B28F25391452008A4C67 /* 24.两两交换链表中的节点.swift */; };
+		341D5FAA2635017B0036FDF5 /* 151.翻转字符串里的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341D5FA92635017B0036FDF5 /* 151.翻转字符串里的单词.swift */; };
+		341D6066263556CC0036FDF5 /* 3.无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341D6065263556CC0036FDF5 /* 3.无重复字符的最长子串.swift */; };
+		341D6081263576DC0036FDF5 /* 剑指 Offer 47 礼物的最大价值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341D6080263576DC0036FDF5 /* 剑指 Offer 47 礼物的最大价值.swift */; };
 		3424B38E25B0A1EE007FB1E4 /* 198.打家劫舍.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3424B38D25B0A1EE007FB1E4 /* 198.打家劫舍.swift */; };
 		3424B39125B0AA80007FB1E4 /* 213.打家劫舍-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3424B39025B0AA80007FB1E4 /* 213.打家劫舍-ii.swift */; };
 		3424B3BE25B4012A007FB1E4 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3424B3BD25B4012A007FB1E4 /* 121.买卖股票的最佳时机.swift */; };
@@ -18,6 +21,8 @@
 		343411C4253C779000887E80 /* 141.环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343411C3253C779000887E80 /* 141.环形链表.swift */; };
 		343411C7253C8A3F00887E80 /* 142.环形链表-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343411C6253C8A3F00887E80 /* 142.环形链表-ii.swift */; };
 		343411CA253C93E000887E80 /* 25.k-个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */; };
+		3439ECAA2636A1D100E84926 /* 72.编辑距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439ECA92636A1D100E84926 /* 72.编辑距离.swift */; };
+		3439ECAD2636A69200E84926 /* 5.最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439ECAC2636A69200E84926 /* 5.最长回文子串.swift */; };
 		344667B425345E38005654F4 /* 15.三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344667B325345E38005654F4 /* 15.三数之和.swift */; };
 		344EED19254EB7FE00B083FE /* 88.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */; };
 		344EED1C254EC76500B083FE /* 66.加一.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED1B254EC76500B083FE /* 66.加一.swift */; };
@@ -95,6 +100,9 @@
 /* Begin PBXFileReference section */
 		340B0CCF25729FDD00AD790A /* hannota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hannota.swift; sourceTree = "<group>"; };
 		3414B28F25391452008A4C67 /* 24.两两交换链表中的节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "24.两两交换链表中的节点.swift"; sourceTree = "<group>"; };
+		341D5FA92635017B0036FDF5 /* 151.翻转字符串里的单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "151.翻转字符串里的单词.swift"; sourceTree = "<group>"; };
+		341D6065263556CC0036FDF5 /* 3.无重复字符的最长子串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "3.无重复字符的最长子串.swift"; sourceTree = "<group>"; };
+		341D6080263576DC0036FDF5 /* 剑指 Offer 47 礼物的最大价值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 47 礼物的最大价值.swift"; sourceTree = "<group>"; };
 		3424B38D25B0A1EE007FB1E4 /* 198.打家劫舍.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "198.打家劫舍.swift"; sourceTree = "<group>"; };
 		3424B39025B0AA80007FB1E4 /* 213.打家劫舍-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "213.打家劫舍-ii.swift"; sourceTree = "<group>"; };
 		3424B3BD25B4012A007FB1E4 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
@@ -105,6 +113,8 @@
 		343411C6253C8A3F00887E80 /* 142.环形链表-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "142.环形链表-ii.swift"; sourceTree = "<group>"; };
 		343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "25.k-个一组翻转链表.swift"; sourceTree = "<group>"; };
 		3439DBD2254DAF2200B88924 /* LeetCodeTrain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeetCodeTrain-Bridging-Header.h"; sourceTree = "<group>"; };
+		3439ECA92636A1D100E84926 /* 72.编辑距离.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "72.编辑距离.swift"; sourceTree = "<group>"; };
+		3439ECAC2636A69200E84926 /* 5.最长回文子串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5.最长回文子串.swift"; sourceTree = "<group>"; };
 		344667B325345E38005654F4 /* 15.三数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "15.三数之和.swift"; sourceTree = "<group>"; };
 		344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "88.合并两个有序数组.swift"; sourceTree = "<group>"; };
 		344EED1B254EC76500B083FE /* 66.加一.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "66.加一.swift"; sourceTree = "<group>"; };
@@ -210,7 +220,12 @@
 				343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */,
 				34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */,
 				3453C77525AAEB3D00A15CE3 /* 32.最长有效括号.swift */,
+				3439ECAC2636A69200E84926 /* 5.最长回文子串.swift */,
+				3439ECA92636A1D100E84926 /* 72.编辑距离.swift */,
 				3453C77225AAE2DE00A15CE3 /* 45.跳跃游戏-ii.swift */,
+				341D5FA92635017B0036FDF5 /* 151.翻转字符串里的单词.swift */,
+				341D6065263556CC0036FDF5 /* 3.无重复字符的最长子串.swift */,
+				341D6080263576DC0036FDF5 /* 剑指 Offer 47 礼物的最大价值.swift */,
 				34FCA56D255CC6ED002BE4A8 /* 49.字母异位词分组.swift */,
 				34E8E6E125735F2000D64401 /* 51.n皇后.swift */,
 				347E0A66259F2C51009138AA /* 53.最大子序和.swift */,
@@ -336,6 +351,7 @@
 				34AA7C73256A9B3D007C56C0 /* 77.组合.swift in Sources */,
 				344EED1F254ECC7700B083FE /* 20.有效的括号.swift in Sources */,
 				34E8E6E225735F2000D64401 /* 51.n皇后.swift in Sources */,
+				341D5FAA2635017B0036FDF5 /* 151.翻转字符串里的单词.swift in Sources */,
 				346FC10B256127E90020380D /* 429.n叉树的层序遍历.swift in Sources */,
 				343411C4253C779000887E80 /* 141.环形链表.swift in Sources */,
 				343411CA253C93E000887E80 /* 25.k-个一组翻转链表.swift in Sources */,
@@ -360,6 +376,7 @@
 				34977AA325C6A4F20040C7C1 /* 74.搜索二维矩阵.swift in Sources */,
 				34977AA625C6B1B90040C7C1 /* 153.寻找旋转排序数组中的最小值.swift in Sources */,
 				344667B425345E38005654F4 /* 15.三数之和.swift in Sources */,
+				341D6066263556CC0036FDF5 /* 3.无重复字符的最长子串.swift in Sources */,
 				34FCA56E255CC6ED002BE4A8 /* 49.字母异位词分组.swift in Sources */,
 				3424B3C125B4118C007FB1E4 /* 123.买卖股票的最佳时机-iii.swift in Sources */,
 				347E0B8625A4B98F009138AA /* 69.x-的平方根.swift in Sources */,
@@ -374,6 +391,7 @@
 				344EED1C254EC76500B083FE /* 66.加一.swift in Sources */,
 				3424B3C425B48A3C007FB1E4 /* 309.最佳买卖股票时机含冷冻期.swift in Sources */,
 				3451406C25371F3500DC3CC0 /* 206.反转链表.swift in Sources */,
+				3439ECAA2636A1D100E84926 /* 72.编辑距离.swift in Sources */,
 				347E0A6A259F68DD009138AA /* 300.最长上升子序列.swift in Sources */,
 				34AA7C70256A8493007C56C0 /* 105.从前序与中序遍历序列构造二叉树.swift in Sources */,
 				3424B3C725B49931007FB1E4 /* 188.买卖股票的最佳时机-iv.swift in Sources */,
@@ -392,6 +410,7 @@
 				34CBFB8825A60FD20039F4AE /* 860.柠檬水找零.swift in Sources */,
 				344EED19254EB7FE00B083FE /* 88.合并两个有序数组.swift in Sources */,
 				347E0A6D25A013B5009138AA /* 1143.最长公共子序列.swift in Sources */,
+				3439ECAD2636A69200E84926 /* 5.最长回文子串.swift in Sources */,
 				34A783E525583FD9002A5294 /* 641.设计循环双端队列.swift in Sources */,
 				347E0A7025A185C2009138AA /* 1143-2.最长公共子串.swift in Sources */,
 				34FB7A05256180DE00DE1A5A /* 98.验证二叉搜索树.swift in Sources */,
@@ -399,6 +418,7 @@
 				34A5AD39254A3359006CB80F /* 21.合并两个有序链表.swift in Sources */,
 				346FC0FF2560D4C10020380D /* 94.二叉树的中序遍历.swift in Sources */,
 				34AA7C6A256930A9007C56C0 /* 297.二叉树的序列化与反序列化.swift in Sources */,
+				341D6081263576DC0036FDF5 /* 剑指 Offer 47 礼物的最大价值.swift in Sources */,
 				34AA7C7C256ABA5E007C56C0 /* 515.在每个树行中找最大值.swift in Sources */,
 				344EED28254EED2C00B083FE /* 239.滑动窗口最大值.swift in Sources */,
 				3424B38E25B0A1EE007FB1E4 /* 198.打家劫舍.swift in Sources */,
