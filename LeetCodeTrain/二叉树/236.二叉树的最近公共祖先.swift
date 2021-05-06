@@ -50,8 +50,30 @@ class Solution236 {
     }
     // 第二次练习
     func lowestCommonAncestor2(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+        // 实际上采用一种递归思想
+        if root == nil {
+            return nil
+        }
+        if root === p {
+            return p
+        }
+        if root === q {
+            return q
+        }
         
+        let leftNode = lowestCommonAncestor2(root?.left, p, q)
+        let rightNode = lowestCommonAncestor2(root?.right, p, q)
+        // 左边没找到
+        if leftNode == nil {
+            return rightNode
+        }
+        // 右边没找到
+        if rightNode == nil {
+            return leftNode
+        }
+        return root
     }
+    
     static func test() {
        let solution = Solution236()
         let root = TreeNode()
