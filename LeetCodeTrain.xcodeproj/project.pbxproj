@@ -84,6 +84,11 @@
 		34F08E252642AEF500E50E61 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E242642AEF500E50E61 /* 剑指 Offer 55 - I. 二叉树的深度.swift */; };
 		34F08E282642B0E600E50E61 /* 剑指 Offer 55 - II. 平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E272642B0E600E50E61 /* 剑指 Offer 55 - II. 平衡二叉树.swift */; };
 		34F08E2B2642CA9600E50E61 /* 剑指 Offer 14- I. 剪绳子.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E2A2642CA9600E50E61 /* 剑指 Offer 14- I. 剪绳子.swift */; };
+		34F08E8F26439A3100E50E61 /* 75.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E8E26439A3100E50E61 /* 75.颜色分类.swift */; };
+		34F08E922643CCFC00E50E61 /* 面试题 16.16. 部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E912643CCFC00E50E61 /* 面试题 16.16. 部分排序.swift */; };
+		34F08E952643E64F00E50E61 /* 数组总结.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E942643E64F00E50E61 /* 数组总结.swift */; };
+		34F08E982643E90300E50E61 /* 链表总结.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E972643E90300E50E61 /* 链表总结.swift */; };
+		34F08E9B2643E9A700E50E61 /* 203. 移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E9A2643E9A700E50E61 /* 203. 移除链表元素.swift */; };
 		34FB7A022561767B00DE1A5A /* 226.翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FB7A012561767B00DE1A5A /* 226.翻转二叉树.swift */; };
 		34FB7A05256180DE00DE1A5A /* 98.验证二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FB7A04256180DE00DE1A5A /* 98.验证二叉搜索树.swift */; };
 		34FB7A0825618EA500DE1A5A /* 104.二叉树的最大深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FB7A0725618EA500DE1A5A /* 104.二叉树的最大深度.swift */; };
@@ -189,6 +194,11 @@
 		34F08E242642AEF500E50E61 /* 剑指 Offer 55 - I. 二叉树的深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 55 - I. 二叉树的深度.swift"; sourceTree = "<group>"; };
 		34F08E272642B0E600E50E61 /* 剑指 Offer 55 - II. 平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 55 - II. 平衡二叉树.swift"; sourceTree = "<group>"; };
 		34F08E2A2642CA9600E50E61 /* 剑指 Offer 14- I. 剪绳子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 14- I. 剪绳子.swift"; sourceTree = "<group>"; };
+		34F08E8E26439A3100E50E61 /* 75.颜色分类.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "75.颜色分类.swift"; path = "LeetCodeTrain/75.颜色分类.swift"; sourceTree = SOURCE_ROOT; };
+		34F08E912643CCFC00E50E61 /* 面试题 16.16. 部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 16.16. 部分排序.swift"; sourceTree = "<group>"; };
+		34F08E942643E64F00E50E61 /* 数组总结.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "数组总结.swift"; sourceTree = "<group>"; };
+		34F08E972643E90300E50E61 /* 链表总结.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "链表总结.swift"; sourceTree = "<group>"; };
+		34F08E9A2643E9A700E50E61 /* 203. 移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203. 移除链表元素.swift"; sourceTree = "<group>"; };
 		34FB7A012561767B00DE1A5A /* 226.翻转二叉树.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "226.翻转二叉树.swift"; sourceTree = "<group>"; };
 		34FB7A04256180DE00DE1A5A /* 98.验证二叉搜索树.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "98.验证二叉搜索树.swift"; sourceTree = "<group>"; };
 		34FB7A0725618EA500DE1A5A /* 104.二叉树的最大深度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "104.二叉树的最大深度.swift"; sourceTree = "<group>"; };
@@ -276,8 +286,11 @@
 			isa = PBXGroup;
 			children = (
 				344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */,
+				34F08E8E26439A3100E50E61 /* 75.颜色分类.swift */,
+				34F08E912643CCFC00E50E61 /* 面试题 16.16. 部分排序.swift */,
 				ED380A90251DC179004FD591 /* 1.两数之和.swift */,
 				344667B325345E38005654F4 /* 15.三数之和.swift */,
+				34F08E942643E64F00E50E61 /* 数组总结.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -286,8 +299,10 @@
 			isa = PBXGroup;
 			children = (
 				343411C3253C779000887E80 /* 141.环形链表.swift */,
+				34F08E972643E90300E50E61 /* 链表总结.swift */,
 				343411C6253C8A3F00887E80 /* 142.环形链表-ii.swift */,
 				3451406B25371F3500DC3CC0 /* 206.反转链表.swift */,
+				34F08E9A2643E9A700E50E61 /* 203. 移除链表元素.swift */,
 				34A5AD38254A3359006CB80F /* 21.合并两个有序链表.swift */,
 				3414B28F25391452008A4C67 /* 24.两两交换链表中的节点.swift */,
 				343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */,
@@ -442,6 +457,8 @@
 				34F08E2B2642CA9600E50E61 /* 剑指 Offer 14- I. 剪绳子.swift in Sources */,
 				ED5529132514B4C800B225F8 /* main.swift in Sources */,
 				34FEB49325409D5700B3A94E /* 26.删除排序数组中的重复项.swift in Sources */,
+				34F08E9B2643E9A700E50E61 /* 203. 移除链表元素.swift in Sources */,
+				34F08E952643E64F00E50E61 /* 数组总结.swift in Sources */,
 				3453C77325AAE2DE00A15CE3 /* 45.跳跃游戏-ii.swift in Sources */,
 				346FC10E256141310020380D /* 22.括号生成.swift in Sources */,
 				34977AAD25C6DFB60040C7C1 /* 169.求众数.swift in Sources */,
@@ -454,6 +471,7 @@
 				ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */,
 				34FB7A0825618EA500DE1A5A /* 104.二叉树的最大深度.swift in Sources */,
 				34AA7C76256A9D42007C56C0 /* 102.二叉树的层次遍历.swift in Sources */,
+				34F08E8F26439A3100E50E61 /* 75.颜色分类.swift in Sources */,
 				34AA7C672568F8A0007C56C0 /* 111.二叉树的最小深度.swift in Sources */,
 				340B0CD025729FDD00AD790A /* hannota.swift in Sources */,
 				34977AA325C6A4F20040C7C1 /* 74.搜索二维矩阵.swift in Sources */,
@@ -475,6 +493,7 @@
 				34F08E252642AEF500E50E61 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */,
 				34CBFB8B25A685080039F4AE /* 122.买卖股票的最佳时机-ii.swift in Sources */,
 				344EED1C254EC76500B083FE /* 66.加一.swift in Sources */,
+				34F08E982643E90300E50E61 /* 链表总结.swift in Sources */,
 				3424B3C425B48A3C007FB1E4 /* 309.最佳买卖股票时机含冷冻期.swift in Sources */,
 				3451406C25371F3500DC3CC0 /* 206.反转链表.swift in Sources */,
 				3439ECAA2636A1D100E84926 /* 72.编辑距离.swift in Sources */,
@@ -498,6 +517,7 @@
 				34CBFB8825A60FD20039F4AE /* 860.柠檬水找零.swift in Sources */,
 				344EED19254EB7FE00B083FE /* 88.合并两个有序数组.swift in Sources */,
 				347E0A6D25A013B5009138AA /* 1143.最长公共子序列.swift in Sources */,
+				34F08E922643CCFC00E50E61 /* 面试题 16.16. 部分排序.swift in Sources */,
 				3439ECAD2636A69200E84926 /* 5.最长回文子串.swift in Sources */,
 				34F08E132641873700E50E61 /* 剑指 Offer 32 从上到下打印二叉树 2.swift in Sources */,
 				34A783E525583FD9002A5294 /* 641.设计循环双端队列.swift in Sources */,

@@ -142,19 +142,19 @@
             symbolName = "*0x100006d9e">
             <Locations>
                <Location
-                  uuid = "55980A93-08D7-40BA-BD3B-708A97B29673 - f91dd3fecff8347d"
+                  uuid = "55980A93-08D7-40BA-BD3B-708A97B29673 - e69ef841c44fc0cc"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LeetCodeTrain.Solution151.reverseWords(Swift.String) -&gt; Swift.String"
+                  symbolName = "lazy protocol witness table accessor for type Swift.ArraySlice&lt;Swift.Character&gt; and conformance Swift.ArraySlice&lt;A&gt; : Swift.Sequence in Swift"
                   moduleName = "LeetCodeTrain"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/LeetCodeTrain/151.%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.swift"
+                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/%3Ccompiler-generated%3E"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "798">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "46">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -169,19 +169,19 @@
             symbolName = "*0x100006df4">
             <Locations>
                <Location
-                  uuid = "A094BC30-8C59-4399-94A5-36BB97403DF3 - f91dd3fecff83442"
+                  uuid = "A094BC30-8C59-4399-94A5-36BB97403DF3 - 67d882bbe62e51a8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LeetCodeTrain.Solution151.reverseWords(Swift.String) -&gt; Swift.String"
+                  symbolName = "type metadata accessor for Swift.ArraySlice&lt;Swift.Character&gt;"
                   moduleName = "LeetCodeTrain"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/LeetCodeTrain/151.%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.swift"
+                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/%3Ccompiler-generated%3E"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "884">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -903,6 +903,22 @@
             startingLineNumber = "19"
             endingLineNumber = "19"
             landmarkName = "isBalancedCore(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75A8625D-ACC1-4BFE-BC51-529ADF1DFB43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTrain/75.&#x989c;&#x8272;&#x5206;&#x7c7b;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "sortColors(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
