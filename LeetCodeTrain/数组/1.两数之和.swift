@@ -31,6 +31,27 @@ class Solution1 {
         
         return []
     }
+    
+    // 第二次练习
+    // 两数之和，巧妙的采用HashMap
+    func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
+        for index in 0..<nums.count {
+            let item = nums[index]
+            let value = target - item
+            if  let old = hasMap[value] {
+                return [index,old]
+            }
+            hasMap[item] = index
+        }
+        return []
+    }
+    
+    static func test() {
+        let nums = [2,7,11,15]
+        let solution = Solution1()
+        let result = solution.twoSum(nums, 9)
+        print(result)
+    }
 }
 // @lc code=end
 

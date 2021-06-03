@@ -7,4 +7,4 @@
 //
 
 import Foundation
-Solution1616.test()
+SolutionMinHeapTrain.test()

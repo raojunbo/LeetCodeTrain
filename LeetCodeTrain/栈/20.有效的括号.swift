@@ -29,9 +29,32 @@ class Solution20 {
         }
         return false
     }
+    // 第二次训练
+    // 思路
+    // 1. 逐个从头开始入栈
+    // 2. 栈顶与即将要入栈的元素匹配,出栈
+    // 3. 不匹配，入栈
+    // 4知道栈为空为止
+    func isValid2(_ s: String) -> Bool {
+        var stack:[String] = []
+        for item in s {
+            let last = stack.last
+            if item == ")" && last == "(" {
+                stack.removeLast()
+            } else if item == "}" && last == "{" {
+                stack.removeLast()
+            } else if item == "]" && last == "["{
+                stack.removeLast()
+            } else {
+                stack.append(String(item))
+            }
+        }
+        return stack.count > 0 ? false : true
+    }
+    
     class func test() {
-    let str = "()"
-      print(Solution20().isValid(str))
+    let str = "()[]{}"
+      print(Solution20().isValid2(str))
     }
 }
 // @lc code=end
