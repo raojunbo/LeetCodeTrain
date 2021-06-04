@@ -131,6 +131,7 @@
 		34FEAF962668C1B000548EC8 /* Train. 批量建堆.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEAF952668C1B000548EC8 /* Train. 批量建堆.swift */; };
 		34FEAF9A2668D05C00548EC8 /* Train. 小顶堆.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEAF992668D05C00548EC8 /* Train. 小顶堆.swift */; };
 		34FEAF9E2668DBB100548EC8 /* 347. 前k个高频元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEAF9D2668DBB100548EC8 /* 347. 前k个高频元素.swift */; };
+		34FEAFA12669FD0A00548EC8 /* Train. 快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEAFA02669FD0A00548EC8 /* Train. 快速排序.swift */; };
 		34FEB49325409D5700B3A94E /* 26.删除排序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */; };
 		ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A90251DC179004FD591 /* 1.两数之和.swift */; };
 		ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */; };
@@ -278,6 +279,7 @@
 		34FEAF952668C1B000548EC8 /* Train. 批量建堆.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train. 批量建堆.swift"; sourceTree = "<group>"; };
 		34FEAF992668D05C00548EC8 /* Train. 小顶堆.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Train. 小顶堆.swift"; sourceTree = "<group>"; };
 		34FEAF9D2668DBB100548EC8 /* 347. 前k个高频元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "347. 前k个高频元素.swift"; sourceTree = "<group>"; };
+		34FEAFA02669FD0A00548EC8 /* Train. 快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train. 快速排序.swift"; sourceTree = "<group>"; };
 		34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "26.删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
 		ED380A90251DC179004FD591 /* 1.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
 		ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11.盛最多水的容器.swift"; sourceTree = "<group>"; };
@@ -468,7 +470,6 @@
 		34F097C82650BB6E00FDEC05 /* 队列 */ = {
 			isa = PBXGroup;
 			children = (
-				34FEAF9126688E9F00548EC8 /* 优先队列 */,
 				344EED27254EED2C00B083FE /* 239.滑动窗口最大值.swift */,
 				34F097D326511A7C00FDEC05 /* 队列的总结.swift */,
 			);
@@ -478,6 +479,7 @@
 		34F797E1265A572700D09696 /* 排序 */ = {
 			isa = PBXGroup;
 			children = (
+				34FEAFA02669FD0A00548EC8 /* Train. 快速排序.swift */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -536,10 +538,11 @@
 				34F08E2D2643671800E50E61 /* 二叉树 */,
 				3465E859266616DC00DB5C3B /* 堆 */,
 				34FEAF9226688F1200548EC8 /* 红黑树 */,
-				34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */,
-				3453C77225AAE2DE00A15CE3 /* 45.跳跃游戏-ii.swift */,
+				34FEAF9126688E9F00548EC8 /* 优先队列 */,
 				341D5FA92635017B0036FDF5 /* 151.翻转字符串里的单词.swift */,
 				341D6065263556CC0036FDF5 /* 3.无重复字符的最长子串.swift */,
+				3453C77225AAE2DE00A15CE3 /* 45.跳跃游戏-ii.swift */,
+				34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */,
 				34FCA56D255CC6ED002BE4A8 /* 49.字母异位词分组.swift */,
 				34E8E6E125735F2000D64401 /* 51.n皇后.swift */,
 				347E0A66259F2C51009138AA /* 53.最大子序和.swift */,
@@ -740,6 +743,7 @@
 				34FB7A05256180DE00DE1A5A /* 98.验证二叉搜索树.swift in Sources */,
 				34F797C12657630300D09696 /* 48. 旋转图像.swift in Sources */,
 				34F797D6265923B000D09696 /* 448. 找到所有数组中消失的数字.swift in Sources */,
+				34FEAFA12669FD0A00548EC8 /* Train. 快速排序.swift in Sources */,
 				34F08E282642B0E600E50E61 /* 剑指 Offer 55 - II. 平衡二叉树.swift in Sources */,
 				34AA7C79256AA328007C56C0 /* 433.最小基因变化.swift in Sources */,
 				34A5AD39254A3359006CB80F /* 21.合并两个有序链表.swift in Sources */,
