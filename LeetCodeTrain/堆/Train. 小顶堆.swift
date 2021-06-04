@@ -17,20 +17,24 @@ import Foundation
     然后从堆顶元素开始进行堆化；
 */
 
-class BinaryMinHeap {
-    var elements: [Int] = []
+class BinaryMinHeap<E: Comparable> {
+    var elements: [E] = []
+    // 比较
+    var leftLessRightClosure:(_ left:E, _ right: E)->Bool = {(left,right) in
+        return left < right
+    }
     // 添加元素
     // 向最后添加元素，然后将最后的元素进行上滤
-    func add(element: Int) {
+    func add(element: E) {
         // 在最后添加
         elements.append(element)
         siftUp(index: elements.count - 1)
     }
     // 删除堆顶元素: 拿到最后一个元素放到顶部，然后进行下沉
     // logn级别
-    func remove() -> Int{
+    func remove() -> E?{
         if elements.isEmpty {
-            return -1
+            return nil
         }
         let top = elements[0]
         elements[0] = elements.last!
@@ -40,7 +44,7 @@ class BinaryMinHeap {
     }
     // 直接覆盖掉堆顶
     // 将堆顶进行下滤
-    func relplace(element: Int) {
+    func relplace(element: E) {
         if elements.isEmpty {
             elements.append(element)
         } else {
@@ -61,11 +65,11 @@ class BinaryMinHeap {
             // 右子节点
             let rightIndex = childIndex + 1
             // 选出左右子节点最大的那个
-            if rightIndex < elements.count && elements[rightIndex] < childV {
+            if rightIndex < elements.count &&  leftLessRightClosure(elements[rightIndex],childV)   {
                 childIndex = rightIndex
                 childV = elements[rightIndex]
             }
-            if indexV < childV {
+            if  leftLessRightClosure(indexV, childV) {
                 break
             }
             // 将子节点存放到index位置
@@ -82,7 +86,7 @@ class BinaryMinHeap {
             let pindex = (index - 1) / 2
             let pv = elements[pindex]
             // 当前小于父节点，不用进行上滤了
-            if v > pv {
+            if  leftLessRightClosure(pv,v) {
                 break
             }
             // 当前大于父节点
@@ -97,7 +101,7 @@ class BinaryMinHeap {
 }
 class SolutionMinHeapTrain {
     static func test(){
-        let solution = BinaryMinHeap()
+        let solution = BinaryMinHeap<Int>()
         solution.add(element: 68)
         solution.add(element: 72)
         solution.add(element: 43)

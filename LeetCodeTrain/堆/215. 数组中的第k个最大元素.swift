@@ -14,21 +14,19 @@ import Foundation
 class Solution215 {
     // 构建固定容量的小顶堆；堆顶即为倒数第k大的元素
     func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
-        let heap: BinaryMinHeap = BinaryMinHeap()
+        let heap: BinaryMinHeap = BinaryMinHeap<Int>()
         // 不断的将原始添加进小顶堆
         for element in nums {
             if heap.elements.count < k {
                 // 将前k个元素加入到小顶堆
                 heap.add(element: element)
             } else {
-                // 如果是第k + 1个数大于堆顶元素
-                // 将堆顶元素进行替换
+                // 如果是第k + 1个数大于堆顶元素（堆顶为里面已经存在的最小值），将堆顶元素进行替换（进入可以保留最大的k个元素）
                 if element > heap.elements[0] {
                     heap.relplace(element: element)
                 }
             }
         }
-        print(heap.elements)
         return heap.elements[0]
     }
 

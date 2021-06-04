@@ -17,20 +17,23 @@ import Foundation
     然后从堆顶元素开始进行堆化；
 */
 
-class BinaryMaxHeap {
-    var elements: [Int] = []
+class BinaryMaxHeap<E: Comparable> {
+    var elements: [E] = []
+    var leftLessRightClosure:(_ left:E, _ right: E)->Bool = {(left,right) in
+        return left < right
+    }
     // 添加元素
     // 向最后添加元素，然后将最后的元素进行上滤
-    func add(element: Int) {
+    func add(element: E) {
         // 在最后添加
         elements.append(element)
         siftUp(index: elements.count - 1)
     }
     // 删除堆顶元素: 拿到最后一个元素放到顶部，然后进行下沉
     // logn级别
-    func remove() -> Int{
+    func remove() -> E?{
         if elements.isEmpty {
-            return -1
+            return nil
         }
         let top = elements[0]
         elements[0] = elements.last!
@@ -40,7 +43,7 @@ class BinaryMaxHeap {
     }
     // 直接覆盖掉堆顶
     // 将堆顶进行下滤
-    func relplace(element: Int) {
+    func relplace(element: E) {
         if elements.isEmpty {
             elements.append(element)
         } else {
@@ -61,7 +64,7 @@ class BinaryMaxHeap {
             // 右子节点
             let rightIndex = childIndex + 1
             // 选出左右子节点最大的那个
-            if rightIndex < elements.count && elements[rightIndex] > childV{
+            if rightIndex < elements.count && leftLessRightClosure(childV,elements[rightIndex]){
                 childIndex = rightIndex
                 childV = elements[rightIndex]
             }
@@ -82,7 +85,7 @@ class BinaryMaxHeap {
             let pindex = (index - 1) / 2
             let pv = elements[pindex]
             // 当前小于父节点，不用进行上滤了
-            if v < pv {
+            if leftLessRightClosure(v,pv) {
                 break
             }
             // 当前大于父节点
@@ -97,7 +100,7 @@ class BinaryMaxHeap {
 }
 class SolutionMaxHeapTrain {
     static func test(){
-        let solution = BinaryMaxHeap()
+        let solution = BinaryMaxHeap<Int>()
         solution.add(element: 68)
         solution.add(element: 72)
         solution.add(element: 43)
