@@ -48,10 +48,32 @@ class Solution121 {
         }
        return result
     }
-    
+    // 第三遍练习
+    // 找出差值最的大的就可以了
+    func maxProfit3(_ prices: [Int]) -> Int {
+        guard prices.count > 0 else {
+            return 0
+        }
+        var minValue = prices[0]
+        var result = 0
+        for i in 0..<prices.count {
+            let v = prices[i]
+            // 若果当前值比最小值小
+            if v < minValue {
+                minValue = v
+            } else {
+                // 若果当前值比最小值大，计算差值，是否是最大的差值
+                let tmpResult = v - minValue
+                if tmpResult > result {
+                    result = tmpResult
+                }
+            }
+        }
+        return result
+    }
     static func test() {
-        let array = [7,6,4,3,1]
-        let result = Solution121().maxProfit2(array)
+        let array = [7,1,5,3,6,4]
+        let result = Solution121().maxProfit3(array)
         print(result)
     }
 }

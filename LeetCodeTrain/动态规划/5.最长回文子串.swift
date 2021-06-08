@@ -52,7 +52,11 @@ class Solution5 {
         }
         return s.substring(in: begin..<begin + maxLen) ?? ""
     }
-    
+    // 第二遍练习：最长回文字子串
+    //
+//    func longestPalindrome2(_ s: String) -> String {
+//
+//    }
     static func test() {
         let s = "cbbd"
         let solution = Solution5()
