@@ -142,19 +142,19 @@
             symbolName = "*0x100006d9e">
             <Locations>
                <Location
-                  uuid = "55980A93-08D7-40BA-BD3B-708A97B29673 - 3cad3982790069bf"
+                  uuid = "55980A93-08D7-40BA-BD3B-708A97B29673 - d1fb628bb7193ef5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LeetCodeTrain.Solution51.componetResult() -&gt; ()"
+                  symbolName = "LeetCodeTrain.Solution51_2.res.getter : Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
                   moduleName = "LeetCodeTrain"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/LeetCodeTrain/51.n%E7%9A%87%E5%90%8E.swift"
+                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/%3Ccompiler-generated%3E"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "526">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "14">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1180,6 +1180,22 @@
             startingLineNumber = "47"
             endingLineNumber = "47"
             landmarkName = "maxSubArray2(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58FEB526-FD4F-4046-B751-5922AF47D6A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTrain/&#x52a8;&#x6001;&#x89c4;&#x5212;/279. &#x5b8c;&#x5168;&#x5e73;&#x65b9;&#x6570;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "numSquares(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

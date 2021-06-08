@@ -91,6 +91,8 @@
 		34ED2828266E46EE006D4020 /* 85. 最大矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED2827266E46EE006D4020 /* 85. 最大矩形.swift */; };
 		34ED282B266E5551006D4020 /* 647. 回文字串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED282A266E5551006D4020 /* 647. 回文字串.swift */; };
 		34ED282E266F0B4F006D4020 /* 279. 完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED282D266F0B4F006D4020 /* 279. 完全平方数.swift */; };
+		34ED2838266F5BA9006D4020 /* 动态规划笔记.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED2837266F5BA9006D4020 /* 动态规划笔记.swift */; };
+		34ED2841266F6081006D4020 /* 509. 斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED2840266F6081006D4020 /* 509. 斐波那契数.swift */; };
 		34F08E06264000AA00E50E61 /* 剑指 Offer 7 重建二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E05264000AA00E50E61 /* 剑指 Offer 7 重建二叉树.swift */; };
 		34F08E0A2640D50900E50E61 /* 剑指 Offer 8 二叉树的下一个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E092640D50900E50E61 /* 剑指 Offer 8 二叉树的下一个节点.swift */; };
 		34F08E0D2640DA1100E50E61 /* 剑指 Offer 26 树的子结构.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F08E0C2640DA1100E50E61 /* 剑指 Offer 26 树的子结构.swift */; };
@@ -246,6 +248,8 @@
 		34ED2827266E46EE006D4020 /* 85. 最大矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "85. 最大矩形.swift"; sourceTree = "<group>"; };
 		34ED282A266E5551006D4020 /* 647. 回文字串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "647. 回文字串.swift"; sourceTree = "<group>"; };
 		34ED282D266F0B4F006D4020 /* 279. 完全平方数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279. 完全平方数.swift"; sourceTree = "<group>"; };
+		34ED2837266F5BA9006D4020 /* 动态规划笔记.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "动态规划笔记.swift"; sourceTree = "<group>"; };
+		34ED2840266F6081006D4020 /* 509. 斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509. 斐波那契数.swift"; sourceTree = "<group>"; };
 		34F08E05264000AA00E50E61 /* 剑指 Offer 7 重建二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 7 重建二叉树.swift"; sourceTree = "<group>"; };
 		34F08E092640D50900E50E61 /* 剑指 Offer 8 二叉树的下一个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 8 二叉树的下一个节点.swift"; sourceTree = "<group>"; };
 		34F08E0C2640DA1100E50E61 /* 剑指 Offer 26 树的子结构.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 26 树的子结构.swift"; sourceTree = "<group>"; };
@@ -361,6 +365,57 @@
 			path = "堆";
 			sourceTree = "<group>";
 		};
+		34ED283B266F5FBC006D4020 /* 0-1背包问题 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "0-1背包问题";
+			sourceTree = "<group>";
+		};
+		34ED283C266F5FD1006D4020 /* 完全背包 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "完全背包";
+			sourceTree = "<group>";
+		};
+		34ED283D266F5FE4006D4020 /* 打家劫舍 */ = {
+			isa = PBXGroup;
+			children = (
+				3424B38D25B0A1EE007FB1E4 /* 198.打家劫舍.swift */,
+				3424B39025B0AA80007FB1E4 /* 213.打家劫舍-ii.swift */,
+			);
+			path = "打家劫舍";
+			sourceTree = "<group>";
+		};
+		34ED283E266F5FFF006D4020 /* 股票问题 */ = {
+			isa = PBXGroup;
+			children = (
+				3424B3BD25B4012A007FB1E4 /* 121.买卖股票的最佳时机.swift */,
+				34CBFB8A25A685080039F4AE /* 122.买卖股票的最佳时机-ii.swift */,
+				3424B3C025B4118C007FB1E4 /* 123.买卖股票的最佳时机-iii.swift */,
+				3424B3C625B49930007FB1E4 /* 188.买卖股票的最佳时机-iv.swift */,
+				3424B3C325B48A3C007FB1E4 /* 309.最佳买卖股票时机含冷冻期.swift */,
+			);
+			path = "股票问题";
+			sourceTree = "<group>";
+		};
+		34ED283F266F604B006D4020 /* 子序列问题 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "子序列问题";
+			sourceTree = "<group>";
+		};
+		34ED2844266F696F006D4020 /* 基础题 */ = {
+			isa = PBXGroup;
+			children = (
+				34ED2840266F6081006D4020 /* 509. 斐波那契数.swift */,
+				ED380A99251DEDB2004FD591 /* 70.爬楼梯.swift */,
+			);
+			path = "基础题";
+			sourceTree = "<group>";
+		};
 		34F08E2D2643671800E50E61 /* 二叉树 */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,25 +451,25 @@
 		34F08E2E2643673100E50E61 /* 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
+				34ED2844266F696F006D4020 /* 基础题 */,
+				34ED283F266F604B006D4020 /* 子序列问题 */,
+				34ED283E266F5FFF006D4020 /* 股票问题 */,
+				34ED283D266F5FE4006D4020 /* 打家劫舍 */,
+				34ED283C266F5FD1006D4020 /* 完全背包 */,
+				34ED283B266F5FBC006D4020 /* 0-1背包问题 */,
 				3453C77B25AB5D2C00A15CE3 /* 152.乘积最大子数组.swift */,
 				347E0A66259F2C51009138AA /* 53.最大子序和.swift */,
+				34ED2837266F5BA9006D4020 /* 动态规划笔记.swift */,
 				3465E84A2664D70500DB5C3B /* 494.目标和.swift */,
 				34ED2824266DFE2A006D4020 /* 221. 最大正方形.swift */,
-				3424B38D25B0A1EE007FB1E4 /* 198.打家劫舍.swift */,
 				34ED282A266E5551006D4020 /* 647. 回文字串.swift */,
 				34ED2827266E46EE006D4020 /* 85. 最大矩形.swift */,
-				3424B39025B0AA80007FB1E4 /* 213.打家劫舍-ii.swift */,
 				347E0A6C25A013B5009138AA /* 1143.最长公共子序列.swift */,
 				34DD1EAA266B563400C69DA5 /* 96. 不同的二叉搜索树.swift */,
 				34DD1EAD266B625600C69DA5 /* 139. 单词拆分.swift */,
 				34FEAFA4266A266D00548EC8 /* 338. 比特位计数.swift */,
-				3424B3BD25B4012A007FB1E4 /* 121.买卖股票的最佳时机.swift */,
-				34CBFB8A25A685080039F4AE /* 122.买卖股票的最佳时机-ii.swift */,
 				34ED282D266F0B4F006D4020 /* 279. 完全平方数.swift */,
-				3424B3C025B4118C007FB1E4 /* 123.买卖股票的最佳时机-iii.swift */,
-				3424B3C625B49930007FB1E4 /* 188.买卖股票的最佳时机-iv.swift */,
 				347E0A69259F68DD009138AA /* 300.最长上升子序列.swift */,
-				3424B3C325B48A3C007FB1E4 /* 309.最佳买卖股票时机含冷冻期.swift */,
 				34F797C62658A86000D09696 /* 62. 不同路径.swift */,
 				34F797C92658B43E00D09696 /* 64. 最小路径和.swift */,
 				34AA7C7E256ABE24007C56C0 /* 322.零钱兑换.swift */,
@@ -427,7 +482,6 @@
 				34F08E2A2642CA9600E50E61 /* 剑指 Offer 14- I. 剪绳子.swift */,
 				3439ECAC2636A69200E84926 /* 5.最长回文子串.swift */,
 				341D6080263576DC0036FDF5 /* 剑指 Offer 47 礼物的最大价值.swift */,
-				ED380A99251DEDB2004FD591 /* 70.爬楼梯.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -671,6 +725,7 @@
 				34FEAF9E2668DBB100548EC8 /* 347. 前k个高频元素.swift in Sources */,
 				34FEB49325409D5700B3A94E /* 26.删除排序数组中的重复项.swift in Sources */,
 				34F797C42657708500D09696 /* 56. 合并区间.swift in Sources */,
+				34ED2838266F5BA9006D4020 /* 动态规划笔记.swift in Sources */,
 				34F08E9B2643E9A700E50E61 /* 203. 移除链表元素.swift in Sources */,
 				34F797C72658A86000D09696 /* 62. 不同路径.swift in Sources */,
 				34F08E952643E64F00E50E61 /* 数组总结.swift in Sources */,
@@ -717,6 +772,7 @@
 				3465E83D266390FF00DB5C3B /* 200. 岛屿的数量.swift in Sources */,
 				347E0A67259F2C51009138AA /* 53.最大子序和.swift in Sources */,
 				ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */,
+				34ED2841266F6081006D4020 /* 509. 斐波那契数.swift in Sources */,
 				34F08E252642AEF500E50E61 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */,
 				34F08F462644D05300E50E61 /* 160. 相交链表.swift in Sources */,
 				34CBFB8B25A685080039F4AE /* 122.买卖股票的最佳时机-ii.swift in Sources */,

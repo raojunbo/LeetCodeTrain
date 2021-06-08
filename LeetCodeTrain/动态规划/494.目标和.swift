@@ -7,31 +7,50 @@
 //
 
 import Foundation
+//输入：nums = [1,1,1,1,1], target = 3
+//输出：5
+//解释：一共有 5 种方法让最终目标和为 3 。
+//-1 + 1 + 1 + 1 + 1 = 3
+//+1 - 1 + 1 + 1 + 1 = 3
+//+1 + 1 - 1 + 1 + 1 = 3
+//+1 + 1 + 1 - 1 + 1 = 3
+//+1 + 1 + 1 + 1 - 1 = 3
+//
+//来源：力扣（LeetCode）
+//链接：https://leetcode-cn.com/problems/target-sum
+//著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
+// 这道题不是很直白的动态规划问题；
+// 需要做一次转换才能转换成求一个背包装满有多少中装法
+// 这道题。没有真正弄明白
 class Solution494 {
-    var count: Int = 0
-    var dp: [[Int]] = []
-    // 动态规划无非一维数组，二维数组。都是利用已经计算的结果去推导现在的；
+    
     func findTargetSumWays2(_ nums: [Int], _ target: Int) -> Int {
-        // dp[i][j] 表示第i元素组成和为j的方案数,这个i的方案数
-        // 递归表达式：是由加或者减两种方案得来
-        // 很多时候，也就是0，1，背包问题。二维数组的第二维都是vlaue的值
-        // dp[i][j] = dp[i - 1][j - nums[i]] + dp[i - 1][j + nums[i]]
-        // 行是nums个
-        // 列是2000个
-        var dp = Array(repeating: Array(repeating: 0, count: 2000), count: nums.count)
+        // 总和
+        var sum = 0
+        for i in nums {
+            sum += i
+        }
         
-//        for i in 0...nums.count  {
-//            for j in <#items#> {
-//                <#code#>
-//            }
-//        }
-        return 0
+        if (target + sum)%2 != 0 {
+            return 0
+        }
+        // 背包大小
+        let size = (target + sum ) / 2
+        var dp = Array(repeating: 0, count: size + 1)
+        dp[0] = 1
+        // 这里为什么要从后向前
+        nums.forEach { num in
+            for i in stride(from: size, through: num, by: -1) {
+                dp[i] += dp[i - num]
+            }
+        }
+        return dp[size]
     }
     
-    
     static func test() {
-        let nums = [1, 1, 1, 1, 1]
-        let target = 3
+        let nums = [1000]
+        let target = -1000
         let solution = Solution494()
         let result = solution.findTargetSumWays2(nums, target)
         print(result)
