@@ -14,32 +14,14 @@ import Foundation
  */
 class Solution746 {
     func minCostClimbingStairs(_ cost: [Int]) -> Int {
-        if cost.count <= 2 {
-            return cost[cost.count - 1]
+        var dp = Array(repeating: 0, count: cost.count + 1)
+        dp[0] = 0
+        dp[1] = 0
+        for i in 2...cost.count {
+            // 在走一步与走两步里取出最小值
+            dp[i] = min(dp[i - 1] + cost[i - 1], dp[i - 2] + cost[i - 2])
         }
-        
-        // 从cost0开始
-        var p = cost[0]
-        var q = cost[1]
-        
-        // 从cost1开始
-        var p1 = 0 // dp[1]
-        var q1 = cost[1] // dp[2]
-        
-        
-        for _ in 3..<cost.count {
-            // 第一种
-            let tmp = min(p, q)
-            p = q
-            q = tmp
-            
-            // 第二种
-            let tmpp = p1 + q1
-            p1 = q1
-            q1 = tmpp
-        }
-        
-        return min(q, q1)
+        return dp[cost.count]
     }
     
     static func test() {

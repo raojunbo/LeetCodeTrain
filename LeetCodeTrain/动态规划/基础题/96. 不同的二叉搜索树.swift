@@ -28,9 +28,31 @@ class Solution96 {
         }
         return g[n]
     }
+    // 第二遍练习(没有很快的写出来)
+    // 不同的二叉搜索树种数目
+    // 这个的确不好想；
+    // dp[i] 表示最大值是i的二叉搜索树的总和
+    // 递推公式：dp[i] 就是从dp[1] 开始的左边 与 右边的子数的种数总和
+    func numTrees2(_ n: Int) -> Int {
+        var dp = Array(repeating: 0, count: n + 1)
+        // 初始值
+        dp[0] = 1
+        dp[1] = 1
+        if n < 2 {
+            return dp[n]
+        }
+        for i in 2...n {
+            // 在i的条件下，左子树的以其为根的种数 与 右子数以其为根的种数 的乘积
+            for j in 1...i {
+                dp[i] += dp[j - 1] * dp[i - j]
+            }
+        }
+        return dp[n]
+    }
+    
     static func test() {
         let solution = Solution96()
-        let result = solution.numTrees(3)
+        let result = solution.numTrees2(1)
         print(result)
     }
 }
