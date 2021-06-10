@@ -145,6 +145,7 @@
 		4BB4BC6F266F748200C4BBC9 /* 746. 使用最小花费爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4BC6E266F748200C4BBC9 /* 746. 使用最小花费爬楼梯.swift */; };
 		4BB4BC7126706FA300C4BBC9 /* 63. 不同路径II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4BC7026706FA300C4BBC9 /* 63. 不同路径II.swift */; };
 		4BB4BC73267074DE00C4BBC9 /* 343. 整数拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4BC72267074DE00C4BBC9 /* 343. 整数拆分.swift */; };
+		4BB4BC932672012100C4BBC9 /* Train. 0_1背包问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4BC922672012100C4BBC9 /* Train. 0_1背包问题.swift */; };
 		ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A90251DC179004FD591 /* 1.两数之和.swift */; };
 		ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */; };
 		ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A96251DDFB4004FD591 /* 283.移动零.swift */; };
@@ -305,6 +306,7 @@
 		4BB4BC6E266F748200C4BBC9 /* 746. 使用最小花费爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "746. 使用最小花费爬楼梯.swift"; sourceTree = "<group>"; };
 		4BB4BC7026706FA300C4BBC9 /* 63. 不同路径II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "63. 不同路径II.swift"; sourceTree = "<group>"; };
 		4BB4BC72267074DE00C4BBC9 /* 343. 整数拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "343. 整数拆分.swift"; sourceTree = "<group>"; };
+		4BB4BC922672012100C4BBC9 /* Train. 0_1背包问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train. 0_1背包问题.swift"; sourceTree = "<group>"; };
 		ED380A90251DC179004FD591 /* 1.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
 		ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11.盛最多水的容器.swift"; sourceTree = "<group>"; };
 		ED380A96251DDFB4004FD591 /* 283.移动零.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "283.移动零.swift"; sourceTree = "<group>"; };
@@ -371,19 +373,13 @@
 			path = "堆";
 			sourceTree = "<group>";
 		};
-		34ED283B266F5FBC006D4020 /* 0-1背包问题 */ = {
+		34ED283C266F5FD1006D4020 /* 背包问题 */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = "0-1背包问题";
-			sourceTree = "<group>";
-		};
-		34ED283C266F5FD1006D4020 /* 完全背包 */ = {
-			isa = PBXGroup;
-			children = (
+				4BB4BC912672010400C4BBC9 /* 0-1背包 */,
 				347E0AE025A1AF02009138AA /* 1143_3背包问题01.swift */,
 			);
-			path = "完全背包";
+			path = "背包问题";
 			sourceTree = "<group>";
 		};
 		34ED283D266F5FE4006D4020 /* 打家劫舍 */ = {
@@ -405,13 +401,6 @@
 				3424B3C325B48A3C007FB1E4 /* 309.最佳买卖股票时机含冷冻期.swift */,
 			);
 			path = "股票问题";
-			sourceTree = "<group>";
-		};
-		34ED283F266F604B006D4020 /* 子序列问题 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "子序列问题";
 			sourceTree = "<group>";
 		};
 		34ED2844266F696F006D4020 /* 基础题 */ = {
@@ -464,11 +453,9 @@
 			isa = PBXGroup;
 			children = (
 				34ED2844266F696F006D4020 /* 基础题 */,
-				34ED283F266F604B006D4020 /* 子序列问题 */,
 				34ED283E266F5FFF006D4020 /* 股票问题 */,
 				34ED283D266F5FE4006D4020 /* 打家劫舍 */,
-				34ED283C266F5FD1006D4020 /* 完全背包 */,
-				34ED283B266F5FBC006D4020 /* 0-1背包问题 */,
+				34ED283C266F5FD1006D4020 /* 背包问题 */,
 				3453C77B25AB5D2C00A15CE3 /* 152.乘积最大子数组.swift */,
 				347E0A66259F2C51009138AA /* 53.最大子序和.swift */,
 				34ED2837266F5BA9006D4020 /* 动态规划笔记.swift */,
@@ -591,6 +578,14 @@
 			children = (
 			);
 			path = "红黑树";
+			sourceTree = "<group>";
+		};
+		4BB4BC912672010400C4BBC9 /* 0-1背包 */ = {
+			isa = PBXGroup;
+			children = (
+				4BB4BC922672012100C4BBC9 /* Train. 0_1背包问题.swift */,
+			);
+			path = "0-1背包";
 			sourceTree = "<group>";
 		};
 		ED5529062514B4C800B225F8 = {
@@ -819,6 +814,7 @@
 				34ED2828266E46EE006D4020 /* 85. 最大矩形.swift in Sources */,
 				3453C77625AAEB3D00A15CE3 /* 32.最长有效括号.swift in Sources */,
 				3453C77025AAD0F100A15CE3 /* 55.跳跃游戏.swift in Sources */,
+				4BB4BC932672012100C4BBC9 /* Train. 0_1背包问题.swift in Sources */,
 				34F08E0D2640DA1100E50E61 /* 剑指 Offer 26 树的子结构.swift in Sources */,
 				34F797DF265A4D1C00D09696 /* 148. 排序链表.swift in Sources */,
 				3453C77C25AB5D2C00A15CE3 /* 152.乘积最大子数组.swift in Sources */,
