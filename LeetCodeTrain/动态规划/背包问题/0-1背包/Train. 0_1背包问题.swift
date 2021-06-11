@@ -7,10 +7,12 @@
 //
 
 import Foundation
-
+// 0-1背包问题的核心是在有限的条件下求最近组合
 class Solution0_1BagTrain {
     // 背包的容量capacity, w为背包的重量, v为物品的价值
     // 像这种背包问题在定义dp时，要想解决最大问题。最大问题就是子问题的的一种。
+    // 所以在定义dp时，就以最大问题作为定义dp的依据
+    // 最后在进行优化
     func bagMaxValue(capacity:Int, w:[Int],v:[Int]) ->Int {
         // 在容量有限的条件下，能拿到的最大物品价值
         // dp[i][j] 有前i个物品可选，j最大承重; dp[i][j]表示钱i个物品，最大承重为j的最大物品价值
@@ -31,6 +33,7 @@ class Solution0_1BagTrain {
                 dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - w] + v)
             }
         }
+        print(dp)
         return dp[w.count][capacity]
     }
     // 从上面的递推表达式可以看到
@@ -50,6 +53,7 @@ class Solution0_1BagTrain {
                 dp[j] = max(dp[j], dp[j - w] + v)
             }
         }
+      
         return dp[capacity]
     }
     
@@ -57,7 +61,7 @@ class Solution0_1BagTrain {
         let w = [2, 2, 6, 5, 4]
         let v = [6, 3, 5, 4, 6]
         let solution = Solution0_1BagTrain()
-        let result = solution.bagMaxValue2(capacity: 10, w: w, v: v)
+        let result = solution.bagMaxValue(capacity: 10, w: w, v: v)
         print(result)
     }
 }
