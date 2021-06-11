@@ -20,8 +20,10 @@ class Solution1049 {
         let target = sum / 2
         // 初始化数组
         var dp = Array(repeating: 0, count: target + 1)
+        // 一个一个stones
         for i in  0..<stones.count {
             let v = stones[i]
+            //
             for j in (stones[i]...target).reversed() {
                 dp[j] = max(dp[j], dp[j - v] + v)
             }
