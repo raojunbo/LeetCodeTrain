@@ -23,6 +23,7 @@
 		343411CA253C93E000887E80 /* 25.k-个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */; };
 		3439ECAA2636A1D100E84926 /* 72.编辑距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439ECA92636A1D100E84926 /* 72.编辑距离.swift */; };
 		3439ECAD2636A69200E84926 /* 5.最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439ECAC2636A69200E84926 /* 5.最长回文子串.swift */; };
+		343E85EE267903F10056344C /* 377. 组合总和IV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E85ED267903F10056344C /* 377. 组合总和IV.swift */; };
 		344667B425345E38005654F4 /* 15.三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344667B325345E38005654F4 /* 15.三数之和.swift */; };
 		344EED19254EB7FE00B083FE /* 88.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */; };
 		344EED1C254EC76500B083FE /* 66.加一.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED1B254EC76500B083FE /* 66.加一.swift */; };
@@ -188,6 +189,7 @@
 		3439DBD2254DAF2200B88924 /* LeetCodeTrain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeetCodeTrain-Bridging-Header.h"; sourceTree = "<group>"; };
 		3439ECA92636A1D100E84926 /* 72.编辑距离.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "72.编辑距离.swift"; sourceTree = "<group>"; };
 		3439ECAC2636A69200E84926 /* 5.最长回文子串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5.最长回文子串.swift"; sourceTree = "<group>"; };
+		343E85ED267903F10056344C /* 377. 组合总和IV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "377. 组合总和IV.swift"; sourceTree = "<group>"; };
 		344667B325345E38005654F4 /* 15.三数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "15.三数之和.swift"; sourceTree = "<group>"; };
 		344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "88.合并两个有序数组.swift"; sourceTree = "<group>"; };
 		344EED1B254EC76500B083FE /* 66.加一.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "66.加一.swift"; sourceTree = "<group>"; };
@@ -335,7 +337,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3465E82F2662247000DB5C3B /* 深度优先搜索 */ = {
+		343E85F02679046F0056344C /* 11. 贪心 */ = {
+			isa = PBXGroup;
+			children = (
+				34AA7C78256AA328007C56C0 /* 433.最小基因变化.swift */,
+			);
+			path = "11. 贪心";
+			sourceTree = "<group>";
+		};
+		343E85F3267904BD0056344C /* 3. 哈希表 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3. 哈希表";
+			sourceTree = "<group>";
+		};
+		343E8610267908E70056344C /* 未分类 */ = {
+			isa = PBXGroup;
+			children = (
+				34983F532598DBD700A3FEAD /* BruteFore01.swift */,
+				340B0CCF25729FDD00AD790A /* hannota.swift */,
+				341D6065263556CC0036FDF5 /* 3.无重复字符的最长子串.swift */,
+				34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */,
+				3453C77225AAE2DE00A15CE3 /* 45.跳跃游戏-ii.swift */,
+				34FCA56D255CC6ED002BE4A8 /* 49.字母异位词分组.swift */,
+				34E8E6E125735F2000D64401 /* 51.n皇后.swift */,
+				3453C76F25AAD0F100A15CE3 /* 55.跳跃游戏.swift */,
+				344EED1B254EC76500B083FE /* 66.加一.swift */,
+				347E0B8525A4B98F009138AA /* 69.x-的平方根.swift */,
+				341D5FA92635017B0036FDF5 /* 151.翻转字符串里的单词.swift */,
+				34977AA525C6B1B90040C7C1 /* 153.寻找旋转排序数组中的最小值.swift */,
+				34560508254798E000E27201 /* 189.旋转数组.swift */,
+				34FCA56A255CAAFB002BE4A8 /* 242.有效的字母异位词.swift */,
+				ED380A96251DDFB4004FD591 /* 283.移动零.swift */,
+				34AA7C7B256ABA5E007C56C0 /* 515.在每个树行中找最大值.swift */,
+				34A783E425583FD9002A5294 /* 641.设计循环双端队列.swift */,
+				34AA7C72256A9B3D007C56C0 /* 77.组合.swift */,
+				3453C77825AAFABC00A15CE3 /* 120.三角形最小路径和.swift */,
+				ED5529192514B4F800B225F8 /* 146.lru缓存机制.swift */,
+			);
+			path = "未分类";
+			sourceTree = "<group>";
+		};
+		3465E82F2662247000DB5C3B /* 17. 深度优先搜索 */ = {
 			isa = PBXGroup;
 			children = (
 				3465E830266224A300DB5C3B /* 17. 电话号码的字母组合.swift */,
@@ -346,30 +390,30 @@
 				3465E8472664C34600DB5C3B /* 301. 删除无效的括号.swift */,
 				3465E8382662529100DB5C3B /* 114. 二叉树展开为链表.swift */,
 			);
-			path = "深度优先搜索";
+			path = "17. 深度优先搜索";
 			sourceTree = "<group>";
 		};
-		3465E84526648E7E00DB5C3B /* 回溯 */ = {
+		3465E84526648E7E00DB5C3B /* 9. 回溯 */ = {
 			isa = PBXGroup;
 			children = (
 				346FC10D256141310020380D /* 22.括号生成.swift */,
 			);
-			path = "回溯";
+			path = "9. 回溯";
 			sourceTree = "<group>";
 		};
-		3465E84D2665C8E100DB5C3B /* 二分查找 */ = {
+		3465E84D2665C8E100DB5C3B /* 8. 二分查找 */ = {
 			isa = PBXGroup;
 			children = (
-				347E0B8825A544A6009138AA /* 367.有效的完全平方数.swift */,
 				3465E84E2665C98D00DB5C3B /* 4. 寻找两个正序数组的中位数.swift */,
 				34977A9F25C68F440040C7C1 /* 33.搜索旋转排序数组.swift */,
 				34F797B726564EDC00D09696 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift */,
 				3465E8522665EC9000DB5C3B /* 240. 搜索二维矩阵2.swift */,
+				347E0B8825A544A6009138AA /* 367.有效的完全平方数.swift */,
 			);
-			path = "二分查找";
+			path = "8. 二分查找";
 			sourceTree = "<group>";
 		};
-		3465E859266616DC00DB5C3B /* 堆 */ = {
+		3465E859266616DC00DB5C3B /* 15. 堆 */ = {
 			isa = PBXGroup;
 			children = (
 				3465E855266614BE00DB5C3B /* 215. 数组中的第k个最大元素.swift */,
@@ -378,7 +422,7 @@
 				34FEAF992668D05C00548EC8 /* Train. 小顶堆.swift */,
 				34FEAF952668C1B000548EC8 /* Train. 批量建堆.swift */,
 			);
-			path = "堆";
+			path = "15. 堆";
 			sourceTree = "<group>";
 		};
 		34ED283C266F5FD1006D4020 /* 背包问题 */ = {
@@ -425,7 +469,7 @@
 			path = "基础题";
 			sourceTree = "<group>";
 		};
-		34F08E2D2643671800E50E61 /* 二叉树 */ = {
+		34F08E2D2643671800E50E61 /* 6. 二叉树 */ = {
 			isa = PBXGroup;
 			children = (
 				346FC0FE2560D4C10020380D /* 94.二叉树的中序遍历.swift */,
@@ -454,10 +498,10 @@
 				34F08E242642AEF500E50E61 /* 剑指 Offer 55 - I. 二叉树的深度.swift */,
 				34F08E272642B0E600E50E61 /* 剑指 Offer 55 - II. 平衡二叉树.swift */,
 			);
-			path = "二叉树";
+			path = "6. 二叉树";
 			sourceTree = "<group>";
 		};
-		34F08E2E2643673100E50E61 /* 动态规划 */ = {
+		34F08E2E2643673100E50E61 /* 12. 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
 				34ED2844266F696F006D4020 /* 基础题 */,
@@ -486,10 +530,10 @@
 				3439ECAC2636A69200E84926 /* 5.最长回文子串.swift */,
 				341D6080263576DC0036FDF5 /* 剑指 Offer 47 礼物的最大价值.swift */,
 			);
-			path = "动态规划";
+			path = "12. 动态规划";
 			sourceTree = "<group>";
 		};
-		34F08E2F264367B400E50E61 /* 数组 */ = {
+		34F08E2F264367B400E50E61 /* 1. 数组 */ = {
 			isa = PBXGroup;
 			children = (
 				ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */,
@@ -509,10 +553,10 @@
 				34977AA225C6A4F20040C7C1 /* 74.搜索二维矩阵.swift */,
 				34F08E942643E64F00E50E61 /* 数组总结.swift */,
 			);
-			path = "数组";
+			path = "1. 数组";
 			sourceTree = "<group>";
 		};
-		34F08E30264367C400E50E61 /* 链表 */ = {
+		34F08E30264367C400E50E61 /* 2. 链表 */ = {
 			isa = PBXGroup;
 			children = (
 				343411C3253C779000887E80 /* 141.环形链表.swift */,
@@ -531,10 +575,10 @@
 				3414B28F25391452008A4C67 /* 24.两两交换链表中的节点.swift */,
 				343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */,
 			);
-			path = "链表";
+			path = "2. 链表";
 			sourceTree = "<group>";
 		};
-		34F08E312643688800E50E61 /* 栈 */ = {
+		34F08E312643688800E50E61 /* 4. 栈 */ = {
 			isa = PBXGroup;
 			children = (
 				344EED1E254ECC7700B083FE /* 20.有效的括号.swift */,
@@ -545,46 +589,46 @@
 				344EED24254EE5FA00B083FE /* 84.柱状图中最大的矩形.swift */,
 				3465AC762647EF5000A8E6D3 /* 栈的总结.swift */,
 			);
-			path = "栈";
+			path = "4. 栈";
 			sourceTree = "<group>";
 		};
-		34F097C82650BB6E00FDEC05 /* 队列 */ = {
+		34F097C82650BB6E00FDEC05 /* 5. 队列 */ = {
 			isa = PBXGroup;
 			children = (
 				344EED27254EED2C00B083FE /* 239.滑动窗口最大值.swift */,
 				34F097D326511A7C00FDEC05 /* 队列的总结.swift */,
 			);
-			path = "队列";
+			path = "5. 队列";
 			sourceTree = "<group>";
 		};
-		34F797E1265A572700D09696 /* 排序 */ = {
+		34F797E1265A572700D09696 /* 7. 排序 */ = {
 			isa = PBXGroup;
 			children = (
 				34FEAFA02669FD0A00548EC8 /* Train. 快速排序.swift */,
 			);
-			path = "排序";
+			path = "7. 排序";
 			sourceTree = "<group>";
 		};
-		34F797E3265A67E100D09696 /* 分治 */ = {
+		34F797E3265A67E100D09696 /* 10. 分治 */ = {
 			isa = PBXGroup;
 			children = (
 				34977AAC25C6DFB60040C7C1 /* 169.多数元素.swift */,
 			);
-			path = "分治";
+			path = "10. 分治";
 			sourceTree = "<group>";
 		};
-		34FEAF9126688E9F00548EC8 /* 优先队列 */ = {
+		34FEAF9126688E9F00548EC8 /* 14. 优先队列 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "优先队列";
+			path = "14. 优先队列";
 			sourceTree = "<group>";
 		};
-		34FEAF9226688F1200548EC8 /* 红黑树 */ = {
+		34FEAF9226688F1200548EC8 /* 16. 红黑树 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "红黑树";
+			path = "16. 红黑树";
 			sourceTree = "<group>";
 		};
 		4BB4BC912672010400C4BBC9 /* 0-1经典背包 */ = {
@@ -604,6 +648,7 @@
 			children = (
 				4BC429AB2678507800E3667C /* Train. 完全背包问题.swift */,
 				4BC429AD2678620400E3667C /* 518. 零钱兑换II.swift */,
+				343E85ED267903F10056344C /* 377. 组合总和IV.swift */,
 			);
 			path = "完全背包问题";
 			sourceTree = "<group>";
@@ -627,43 +672,25 @@
 		ED5529112514B4C800B225F8 /* LeetCodeTrain */ = {
 			isa = PBXGroup;
 			children = (
-				3465E84D2665C8E100DB5C3B /* 二分查找 */,
-				3465E84526648E7E00DB5C3B /* 回溯 */,
-				3465E82F2662247000DB5C3B /* 深度优先搜索 */,
-				34F797E1265A572700D09696 /* 排序 */,
-				34F797E3265A67E100D09696 /* 分治 */,
-				34F08E2E2643673100E50E61 /* 动态规划 */,
-				34F08E2F264367B400E50E61 /* 数组 */,
-				34F08E30264367C400E50E61 /* 链表 */,
-				34F097C82650BB6E00FDEC05 /* 队列 */,
-				34F08E312643688800E50E61 /* 栈 */,
-				34F08E2D2643671800E50E61 /* 二叉树 */,
-				3465E859266616DC00DB5C3B /* 堆 */,
-				34FEAF9226688F1200548EC8 /* 红黑树 */,
-				34FEAF9126688E9F00548EC8 /* 优先队列 */,
-				341D5FA92635017B0036FDF5 /* 151.翻转字符串里的单词.swift */,
-				341D6065263556CC0036FDF5 /* 3.无重复字符的最长子串.swift */,
-				3453C77225AAE2DE00A15CE3 /* 45.跳跃游戏-ii.swift */,
-				34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */,
-				34FCA56D255CC6ED002BE4A8 /* 49.字母异位词分组.swift */,
-				34E8E6E125735F2000D64401 /* 51.n皇后.swift */,
-				3453C76F25AAD0F100A15CE3 /* 55.跳跃游戏.swift */,
-				344EED1B254EC76500B083FE /* 66.加一.swift */,
-				347E0B8525A4B98F009138AA /* 69.x-的平方根.swift */,
-				34AA7C72256A9B3D007C56C0 /* 77.组合.swift */,
-				3453C77825AAFABC00A15CE3 /* 120.三角形最小路径和.swift */,
-				ED5529192514B4F800B225F8 /* 146.lru缓存机制.swift */,
-				34560508254798E000E27201 /* 189.旋转数组.swift */,
-				34FCA56A255CAAFB002BE4A8 /* 242.有效的字母异位词.swift */,
-				ED380A96251DDFB4004FD591 /* 283.移动零.swift */,
-				34AA7C78256AA328007C56C0 /* 433.最小基因变化.swift */,
-				34AA7C7B256ABA5E007C56C0 /* 515.在每个树行中找最大值.swift */,
-				34A783E425583FD9002A5294 /* 641.设计循环双端队列.swift */,
-				34983F532598DBD700A3FEAD /* BruteFore01.swift */,
-				340B0CCF25729FDD00AD790A /* hannota.swift */,
+				34F08E2F264367B400E50E61 /* 1. 数组 */,
+				34F08E30264367C400E50E61 /* 2. 链表 */,
+				343E85F3267904BD0056344C /* 3. 哈希表 */,
+				34F08E312643688800E50E61 /* 4. 栈 */,
+				34F097C82650BB6E00FDEC05 /* 5. 队列 */,
+				34F08E2D2643671800E50E61 /* 6. 二叉树 */,
+				34F797E1265A572700D09696 /* 7. 排序 */,
+				3465E84D2665C8E100DB5C3B /* 8. 二分查找 */,
+				3465E84526648E7E00DB5C3B /* 9. 回溯 */,
+				34F797E3265A67E100D09696 /* 10. 分治 */,
+				343E85F02679046F0056344C /* 11. 贪心 */,
+				34F08E2E2643673100E50E61 /* 12. 动态规划 */,
+				34FEAF9126688E9F00548EC8 /* 14. 优先队列 */,
+				3465E859266616DC00DB5C3B /* 15. 堆 */,
+				34FEAF9226688F1200548EC8 /* 16. 红黑树 */,
+				3465E82F2662247000DB5C3B /* 17. 深度优先搜索 */,
+				343E8610267908E70056344C /* 未分类 */,
 				3439DBD2254DAF2200B88924 /* LeetCodeTrain-Bridging-Header.h */,
 				ED5529122514B4C800B225F8 /* main.swift */,
-				34977AA525C6B1B90040C7C1 /* 153.寻找旋转排序数组中的最小值.swift */,
 			);
 			path = LeetCodeTrain;
 			sourceTree = "<group>";
@@ -752,6 +779,7 @@
 				34F797C42657708500D09696 /* 56. 合并区间.swift in Sources */,
 				34ED2838266F5BA9006D4020 /* 动态规划笔记.swift in Sources */,
 				34F08E9B2643E9A700E50E61 /* 203. 移除链表元素.swift in Sources */,
+				343E85EE267903F10056344C /* 377. 组合总和IV.swift in Sources */,
 				34F797C72658A86000D09696 /* 62. 不同路径.swift in Sources */,
 				34F08E952643E64F00E50E61 /* 数组总结.swift in Sources */,
 				3453C77325AAE2DE00A15CE3 /* 45.跳跃游戏-ii.swift in Sources */,

@@ -142,18 +142,18 @@
             symbolName = "*0x100006d9e">
             <Locations>
                <Location
-                  uuid = "55980A93-08D7-40BA-BD3B-708A97B29673 - d1fb628bb7193ef5"
+                  uuid = "55980A93-08D7-40BA-BD3B-708A97B29673 - 62dea932816f90c3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LeetCodeTrain.Solution51_2.res.getter : Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
+                  symbolName = "LeetCodeTrain.Solution51.__allocating_init() -&gt; LeetCodeTrain.Solution51"
                   moduleName = "LeetCodeTrain"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/%3Ccompiler-generated%3E"
+                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/LeetCodeTrain/51.n%E7%9A%87%E5%90%8E.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
                   offsetFromSymbolStart = "14">
                </Location>
             </Locations>
