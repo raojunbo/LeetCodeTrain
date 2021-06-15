@@ -3,4 +3,38 @@
    uuid = "6EAB7464-CD87-4BD1-8E63-FDFFF4CBC762"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "243941CE-0365-4078-A0EC-CE5CEDAC31AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTrain/&#x52a8;&#x6001;&#x89c4;&#x5212;/&#x80cc;&#x5305;&#x95ee;&#x9898;/0-1&#x7ecf;&#x5178;&#x80cc;&#x5305;/494.&#x76ee;&#x6807;&#x548c;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "findTargetSumWays2(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA7DBC92-1F25-454E-A557-73DDA2EBF8AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTrain/&#x52a8;&#x6001;&#x89c4;&#x5212;/&#x80cc;&#x5305;&#x95ee;&#x9898;/&#x5b8c;&#x5168;&#x80cc;&#x5305;&#x95ee;&#x9898;/Train. &#x5b8c;&#x5168;&#x80cc;&#x5305;&#x95ee;&#x9898;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "bagMaxValue(capacity:weight:value:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

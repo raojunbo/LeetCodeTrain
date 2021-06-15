@@ -147,6 +147,9 @@
 		4BB4BC7126706FA300C4BBC9 /* 63. 不同路径II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4BC7026706FA300C4BBC9 /* 63. 不同路径II.swift */; };
 		4BB4BC73267074DE00C4BBC9 /* 343. 整数拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4BC72267074DE00C4BBC9 /* 343. 整数拆分.swift */; };
 		4BB4BC932672012100C4BBC9 /* Train. 0_1背包问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4BC922672012100C4BBC9 /* Train. 0_1背包问题.swift */; };
+		4BC429A926784AC300E3667C /* 474. 一和零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429A826784AC300E3667C /* 474. 一和零.swift */; };
+		4BC429AC2678507800E3667C /* Train. 完全背包问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429AB2678507800E3667C /* Train. 完全背包问题.swift */; };
+		4BC429AE2678620400E3667C /* 518. 零钱兑换II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429AD2678620400E3667C /* 518. 零钱兑换II.swift */; };
 		ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A90251DC179004FD591 /* 1.两数之和.swift */; };
 		ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */; };
 		ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A96251DDFB4004FD591 /* 283.移动零.swift */; };
@@ -309,6 +312,9 @@
 		4BB4BC7026706FA300C4BBC9 /* 63. 不同路径II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "63. 不同路径II.swift"; sourceTree = "<group>"; };
 		4BB4BC72267074DE00C4BBC9 /* 343. 整数拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "343. 整数拆分.swift"; sourceTree = "<group>"; };
 		4BB4BC922672012100C4BBC9 /* Train. 0_1背包问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train. 0_1背包问题.swift"; sourceTree = "<group>"; };
+		4BC429A826784AC300E3667C /* 474. 一和零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "474. 一和零.swift"; sourceTree = "<group>"; };
+		4BC429AB2678507800E3667C /* Train. 完全背包问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train. 完全背包问题.swift"; sourceTree = "<group>"; };
+		4BC429AD2678620400E3667C /* 518. 零钱兑换II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "518. 零钱兑换II.swift"; sourceTree = "<group>"; };
 		ED380A90251DC179004FD591 /* 1.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
 		ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11.盛最多水的容器.swift"; sourceTree = "<group>"; };
 		ED380A96251DDFB4004FD591 /* 283.移动零.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "283.移动零.swift"; sourceTree = "<group>"; };
@@ -378,7 +384,8 @@
 		34ED283C266F5FD1006D4020 /* 背包问题 */ = {
 			isa = PBXGroup;
 			children = (
-				4BB4BC912672010400C4BBC9 /* 0-1背包 */,
+				4BC429AA26784E2A00E3667C /* 完全背包问题 */,
+				4BB4BC912672010400C4BBC9 /* 0-1经典背包 */,
 			);
 			path = "背包问题";
 			sourceTree = "<group>";
@@ -460,7 +467,6 @@
 				3453C77B25AB5D2C00A15CE3 /* 152.乘积最大子数组.swift */,
 				347E0A66259F2C51009138AA /* 53.最大子序和.swift */,
 				34ED2837266F5BA9006D4020 /* 动态规划笔记.swift */,
-				3465E84A2664D70500DB5C3B /* 494.目标和.swift */,
 				34ED2824266DFE2A006D4020 /* 221. 最大正方形.swift */,
 				34ED282A266E5551006D4020 /* 647. 回文字串.swift */,
 				34ED2827266E46EE006D4020 /* 85. 最大矩形.swift */,
@@ -581,14 +587,25 @@
 			path = "红黑树";
 			sourceTree = "<group>";
 		};
-		4BB4BC912672010400C4BBC9 /* 0-1背包 */ = {
+		4BB4BC912672010400C4BBC9 /* 0-1经典背包 */ = {
 			isa = PBXGroup;
 			children = (
 				4BB4BC922672012100C4BBC9 /* Train. 0_1背包问题.swift */,
 				4B1A78F7267304DE0070E26B /* 416. 分割等和子集.swift */,
 				4B1A78F9267342D50070E26B /* 1049. 最后以块石头的重量II.swift */,
+				3465E84A2664D70500DB5C3B /* 494.目标和.swift */,
+				4BC429A826784AC300E3667C /* 474. 一和零.swift */,
 			);
-			path = "0-1背包";
+			path = "0-1经典背包";
+			sourceTree = "<group>";
+		};
+		4BC429AA26784E2A00E3667C /* 完全背包问题 */ = {
+			isa = PBXGroup;
+			children = (
+				4BC429AB2678507800E3667C /* Train. 完全背包问题.swift */,
+				4BC429AD2678620400E3667C /* 518. 零钱兑换II.swift */,
+			);
+			path = "完全背包问题";
 			sourceTree = "<group>";
 		};
 		ED5529062514B4C800B225F8 = {
@@ -749,6 +766,7 @@
 				34F08E0A2640D50900E50E61 /* 剑指 Offer 8 二叉树的下一个节点.swift in Sources */,
 				34AA7C6D256A0641007C56C0 /* 236.二叉树的最近公共祖先.swift in Sources */,
 				34F097CC2650D61C00FDEC05 /* 739.每日温度.swift in Sources */,
+				4BC429A926784AC300E3667C /* 474. 一和零.swift in Sources */,
 				34AA7C7F256ABE24007C56C0 /* 322.零钱兑换.swift in Sources */,
 				ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */,
 				34FB7A0825618EA500DE1A5A /* 104.二叉树的最大深度.swift in Sources */,
@@ -762,6 +780,7 @@
 				3465AC772647EF5000A8E6D3 /* 栈的总结.swift in Sources */,
 				34977AA625C6B1B90040C7C1 /* 153.寻找旋转排序数组中的最小值.swift in Sources */,
 				344667B425345E38005654F4 /* 15.三数之和.swift in Sources */,
+				4BC429AC2678507800E3667C /* Train. 完全背包问题.swift in Sources */,
 				341D6066263556CC0036FDF5 /* 3.无重复字符的最长子串.swift in Sources */,
 				34FCA56E255CC6ED002BE4A8 /* 49.字母异位词分组.swift in Sources */,
 				3424B3C125B4118C007FB1E4 /* 123.买卖股票的最佳时机-iii.swift in Sources */,
@@ -781,6 +800,7 @@
 				3465E83D266390FF00DB5C3B /* 200. 岛屿的数量.swift in Sources */,
 				347E0A67259F2C51009138AA /* 53.最大子序和.swift in Sources */,
 				ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */,
+				4BC429AE2678620400E3667C /* 518. 零钱兑换II.swift in Sources */,
 				34ED2841266F6081006D4020 /* 509. 斐波那契数.swift in Sources */,
 				34F08E252642AEF500E50E61 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */,
 				4BB4BC7126706FA300C4BBC9 /* 63. 不同路径II.swift in Sources */,

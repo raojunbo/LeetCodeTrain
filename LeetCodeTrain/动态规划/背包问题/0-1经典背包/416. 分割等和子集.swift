@@ -71,7 +71,6 @@ class Solution416 {
             let v = nums[i - 1]
             for j in (1...target).reversed() {
                 if j < v  {
-//                    dp[j] =  dp[j]
                     continue
                 }
                 if j == v {
