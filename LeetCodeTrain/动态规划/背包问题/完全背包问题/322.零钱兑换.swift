@@ -35,20 +35,49 @@ class Solution322 {
                 }
                 minValue = min(dp[index - item], minValue)
             }
-            //但一句都一条都没执行时i
+            //但一句都一条都没执行时
             if minValue == Int.max {
                 dp[index] = -1
             } else {
                 dp[index] = minValue + 1
             }
         }
+        print(dp)
         return dp[amount]
     }
     
+    // 第二次训练
+    // 要凑成最小的
+    // 定义dp[i] 表示容量为i时需要的最少的硬币个数
+    // 递推表达式 dp[i] = min(dp[j - v] + 1, dp[j])
+    // 不一定所有的dp数据会被填写，在这种恰恰是否有组合的情况下
+    func coinChange2(_ coins: [Int], _ amount: Int) -> Int {
+        var dp = Array(repeating: Int.max, count: amount + 1)
+        dp[0] = 0
+        for i in 0..<coins.count {
+            let v = coins[i]
+            for j in 0...amount {
+                if j < v {
+                    continue
+                }
+                
+                print(dp)
+                
+                if dp[j - v] != Int.max {
+                    dp[j] = min(dp[j - v] + 1, dp[j])
+                }
+            }
+        }
+        print(dp)
+        return dp[amount] == Int.max ? -1 : dp[amount]
+    }
+    
     static func test (){
-        let coins = [1,2,5]
-        let resutl = Solution322().coinChange(coins,11)
+        let coins = [2]
+        let resutl = Solution322().coinChange(coins,3)
+        let result2 =  Solution322().coinChange2(coins,3)
         print(resutl)
+        print(result2)
     }
 }
 // @lc code=end

@@ -7,4 +7,4 @@
 //
 
 import Foundation
-SolutionAllBagTrain.test()
+Solution279.test()

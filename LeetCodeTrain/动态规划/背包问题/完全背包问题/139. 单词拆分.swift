@@ -34,6 +34,7 @@ class Solution139 {
         }
         return dp[count]
     }
+    
     static func test() {
         let solution = Solution139()
         let result = solution.wordBreak("leetcode", ["leet", "code"])
