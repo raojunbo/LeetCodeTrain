@@ -23,7 +23,6 @@
 		343411CA253C93E000887E80 /* 25.k-个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343411C9253C93E000887E80 /* 25.k-个一组翻转链表.swift */; };
 		3439ECAA2636A1D100E84926 /* 72.编辑距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439ECA92636A1D100E84926 /* 72.编辑距离.swift */; };
 		3439ECAD2636A69200E84926 /* 5.最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439ECAC2636A69200E84926 /* 5.最长回文子串.swift */; };
-		343E85EE267903F10056344C /* 377. 组合总和IV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E85ED267903F10056344C /* 377. 组合总和IV.swift */; };
 		344667B425345E38005654F4 /* 15.三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344667B325345E38005654F4 /* 15.三数之和.swift */; };
 		344EED19254EB7FE00B083FE /* 88.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */; };
 		344EED1C254EC76500B083FE /* 66.加一.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EED1B254EC76500B083FE /* 66.加一.swift */; };
@@ -142,6 +141,7 @@
 		34FEAFA12669FD0A00548EC8 /* Train. 快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEAFA02669FD0A00548EC8 /* Train. 快速排序.swift */; };
 		34FEAFA5266A266D00548EC8 /* 338. 比特位计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEAFA4266A266D00548EC8 /* 338. 比特位计数.swift */; };
 		34FEB49325409D5700B3A94E /* 26.删除排序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */; };
+		4B0C30EF26799BFC00C8E374 /* 377. 组合总和IV(排列问题).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C30EE26799BFC00C8E374 /* 377. 组合总和IV(排列问题).swift */; };
 		4B1A78F8267304DE0070E26B /* 416. 分割等和子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A78F7267304DE0070E26B /* 416. 分割等和子集.swift */; };
 		4B1A78FA267342D50070E26B /* 1049. 最后以块石头的重量II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A78F9267342D50070E26B /* 1049. 最后以块石头的重量II.swift */; };
 		4BB4BC6F266F748200C4BBC9 /* 746. 使用最小花费爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4BC6E266F748200C4BBC9 /* 746. 使用最小花费爬楼梯.swift */; };
@@ -150,7 +150,7 @@
 		4BB4BC932672012100C4BBC9 /* Train. 0_1背包问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4BC922672012100C4BBC9 /* Train. 0_1背包问题.swift */; };
 		4BC429A926784AC300E3667C /* 474. 一和零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429A826784AC300E3667C /* 474. 一和零.swift */; };
 		4BC429AC2678507800E3667C /* Train. 完全背包问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429AB2678507800E3667C /* Train. 完全背包问题.swift */; };
-		4BC429AE2678620400E3667C /* 518. 零钱兑换II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429AD2678620400E3667C /* 518. 零钱兑换II.swift */; };
+		4BC429AE2678620400E3667C /* 518. 零钱兑换II(组合问题).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429AD2678620400E3667C /* 518. 零钱兑换II(组合问题).swift */; };
 		ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A90251DC179004FD591 /* 1.两数之和.swift */; };
 		ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */; };
 		ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A96251DDFB4004FD591 /* 283.移动零.swift */; };
@@ -189,7 +189,6 @@
 		3439DBD2254DAF2200B88924 /* LeetCodeTrain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeetCodeTrain-Bridging-Header.h"; sourceTree = "<group>"; };
 		3439ECA92636A1D100E84926 /* 72.编辑距离.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "72.编辑距离.swift"; sourceTree = "<group>"; };
 		3439ECAC2636A69200E84926 /* 5.最长回文子串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5.最长回文子串.swift"; sourceTree = "<group>"; };
-		343E85ED267903F10056344C /* 377. 组合总和IV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "377. 组合总和IV.swift"; sourceTree = "<group>"; };
 		344667B325345E38005654F4 /* 15.三数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "15.三数之和.swift"; sourceTree = "<group>"; };
 		344EED18254EB7FE00B083FE /* 88.合并两个有序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "88.合并两个有序数组.swift"; sourceTree = "<group>"; };
 		344EED1B254EC76500B083FE /* 66.加一.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "66.加一.swift"; sourceTree = "<group>"; };
@@ -308,6 +307,7 @@
 		34FEAFA02669FD0A00548EC8 /* Train. 快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train. 快速排序.swift"; sourceTree = "<group>"; };
 		34FEAFA4266A266D00548EC8 /* 338. 比特位计数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338. 比特位计数.swift"; sourceTree = "<group>"; };
 		34FEB49225409D5700B3A94E /* 26.删除排序数组中的重复项.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "26.删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
+		4B0C30EE26799BFC00C8E374 /* 377. 组合总和IV(排列问题).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "377. 组合总和IV(排列问题).swift"; sourceTree = "<group>"; };
 		4B1A78F7267304DE0070E26B /* 416. 分割等和子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "416. 分割等和子集.swift"; sourceTree = "<group>"; };
 		4B1A78F9267342D50070E26B /* 1049. 最后以块石头的重量II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1049. 最后以块石头的重量II.swift"; sourceTree = "<group>"; };
 		4BB4BC6E266F748200C4BBC9 /* 746. 使用最小花费爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "746. 使用最小花费爬楼梯.swift"; sourceTree = "<group>"; };
@@ -316,7 +316,7 @@
 		4BB4BC922672012100C4BBC9 /* Train. 0_1背包问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train. 0_1背包问题.swift"; sourceTree = "<group>"; };
 		4BC429A826784AC300E3667C /* 474. 一和零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "474. 一和零.swift"; sourceTree = "<group>"; };
 		4BC429AB2678507800E3667C /* Train. 完全背包问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train. 完全背包问题.swift"; sourceTree = "<group>"; };
-		4BC429AD2678620400E3667C /* 518. 零钱兑换II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "518. 零钱兑换II.swift"; sourceTree = "<group>"; };
+		4BC429AD2678620400E3667C /* 518. 零钱兑换II(组合问题).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "518. 零钱兑换II(组合问题).swift"; sourceTree = "<group>"; };
 		ED380A90251DC179004FD591 /* 1.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
 		ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11.盛最多水的容器.swift"; sourceTree = "<group>"; };
 		ED380A96251DDFB4004FD591 /* 283.移动零.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "283.移动零.swift"; sourceTree = "<group>"; };
@@ -515,12 +515,9 @@
 				34ED282A266E5551006D4020 /* 647. 回文字串.swift */,
 				34ED2827266E46EE006D4020 /* 85. 最大矩形.swift */,
 				347E0A6C25A013B5009138AA /* 1143.最长公共子序列.swift */,
-				34DD1EAD266B625600C69DA5 /* 139. 单词拆分.swift */,
 				34FEAFA4266A266D00548EC8 /* 338. 比特位计数.swift */,
-				34ED282D266F0B4F006D4020 /* 279. 完全平方数.swift */,
 				347E0A69259F68DD009138AA /* 300.最长上升子序列.swift */,
 				34F797C92658B43E00D09696 /* 64. 最小路径和.swift */,
-				34AA7C7E256ABE24007C56C0 /* 322.零钱兑换.swift */,
 				34CBFB8D25A6AA160039F4AE /* 455.分发饼干.swift */,
 				34CBFB8725A60FD20039F4AE /* 860.柠檬水找零.swift */,
 				3453C76C25AAAD1000A15CE3 /* 874.模拟行走机器人.swift */,
@@ -647,8 +644,11 @@
 			isa = PBXGroup;
 			children = (
 				4BC429AB2678507800E3667C /* Train. 完全背包问题.swift */,
-				4BC429AD2678620400E3667C /* 518. 零钱兑换II.swift */,
-				343E85ED267903F10056344C /* 377. 组合总和IV.swift */,
+				4BC429AD2678620400E3667C /* 518. 零钱兑换II(组合问题).swift */,
+				34AA7C7E256ABE24007C56C0 /* 322.零钱兑换.swift */,
+				4B0C30EE26799BFC00C8E374 /* 377. 组合总和IV(排列问题).swift */,
+				34ED282D266F0B4F006D4020 /* 279. 完全平方数.swift */,
+				34DD1EAD266B625600C69DA5 /* 139. 单词拆分.swift */,
 			);
 			path = "完全背包问题";
 			sourceTree = "<group>";
@@ -779,7 +779,7 @@
 				34F797C42657708500D09696 /* 56. 合并区间.swift in Sources */,
 				34ED2838266F5BA9006D4020 /* 动态规划笔记.swift in Sources */,
 				34F08E9B2643E9A700E50E61 /* 203. 移除链表元素.swift in Sources */,
-				343E85EE267903F10056344C /* 377. 组合总和IV.swift in Sources */,
+				4B0C30EF26799BFC00C8E374 /* 377. 组合总和IV(排列问题).swift in Sources */,
 				34F797C72658A86000D09696 /* 62. 不同路径.swift in Sources */,
 				34F08E952643E64F00E50E61 /* 数组总结.swift in Sources */,
 				3453C77325AAE2DE00A15CE3 /* 45.跳跃游戏-ii.swift in Sources */,
@@ -828,7 +828,7 @@
 				3465E83D266390FF00DB5C3B /* 200. 岛屿的数量.swift in Sources */,
 				347E0A67259F2C51009138AA /* 53.最大子序和.swift in Sources */,
 				ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */,
-				4BC429AE2678620400E3667C /* 518. 零钱兑换II.swift in Sources */,
+				4BC429AE2678620400E3667C /* 518. 零钱兑换II(组合问题).swift in Sources */,
 				34ED2841266F6081006D4020 /* 509. 斐波那契数.swift in Sources */,
 				34F08E252642AEF500E50E61 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */,
 				4BB4BC7126706FA300C4BBC9 /* 63. 不同路径II.swift in Sources */,

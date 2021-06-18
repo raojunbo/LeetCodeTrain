@@ -26,6 +26,26 @@ class Solution203 {
         }
         return vHead.next
     }
+    
+    // 第二遍练习
+    // 要想删除链表里的元素；
+    func removeElements2(_ head: ListNode?, _ val: Int) -> ListNode? {
+        let newHead = ListNode(-1)
+        newHead.next = head
+        var p: ListNode? = head
+        var pre: ListNode? = newHead
+        while p != nil {
+            // 如果相等删除次节点
+            if p!.val == val {
+                pre?.next = p?.next
+            } else {
+                pre = p
+            }
+            p = p?.next
+        }
+        return newHead.next
+    }
+    
     static func test() {
         let head = createNode()
         let solution = Solution203()
