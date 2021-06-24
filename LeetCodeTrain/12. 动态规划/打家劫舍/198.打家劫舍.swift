@@ -53,10 +53,29 @@ class Solution198 {
         }
         return last2
     }
+    // 第二遍练习
+    // 定义dp[i]，i是以nums结尾的最大值
+    // 哈哈，其实可以像代码二那样进行内存的优化
+    func rob3(_ nums: [Int]) -> Int {
+        if nums.count == 0 {
+            return 0
+        }
+        if nums.count == 1 {
+            return nums[0]
+        }
+        var dp = Array(repeating: 0, count: nums.count)
+        dp[0] = nums[0]
+        dp[1] = max(nums[0], nums[1])
+        for i in 2..<nums.count {
+            let v = nums[i]
+            dp[i] = max(dp[i - 1], dp[i - 2] + v)
+        }
+        return dp[nums.count - 1]
+    }
     
     static func test() {
         let arry = [2,7,9,3,1]
-        let result = Solution198().rob2(arry)
+        let result = Solution198().rob3(arry)
         print(result)
     }
 }

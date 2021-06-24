@@ -40,9 +40,33 @@ class Solution309 {
         }
         return max(f[n - 1][1], f[n - 1][2])
     }
+    
+    
+    
+    // 第二次训练
+    // 分析：买入态，卖出态，冷冻期
+    // dp[i][j] i表示第i只股票，j表示状态 dp[i][j]表示此种状态下的最大值
+    // 0 买入状态
+    // 1 表示卖出状态
+    // 2 冷冻期
+    func maxProfit2(_ prices: [Int]) -> Int {
+        var dp = Array(repeating: Array(repeating: 0, count: 3), count: prices.count)
+        // 初始状态
+        dp[0][0] = -prices[0]
+        for i in 1..<prices.count {
+            // 买入状态（上次本身就是买入状态; 上次是冻结状态）
+            dp[i][0] = max(dp[i - 1][0], dp[i - 1][2] - prices[i])
+            // 卖出的状态（上次是买入的状态）
+            dp[i][1] = dp[i - 1][0] + prices[i]
+            // 冻结状态（上次是卖出;本身是冻结状态;）
+            dp[i][2] = max(dp[i - 1][1],dp[i - 1][2])
+        }
+        return max(dp[prices.count - 1][1], dp[prices.count - 1][2])
+    }
+    
     static func test() {
         let array = [1,2,3,0,2]
-        let restu = Solution309().maxProfit(array)
+        let restu = Solution309().maxProfit2(array)
         print(restu)
     }
 }

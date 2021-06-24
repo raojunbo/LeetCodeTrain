@@ -41,9 +41,36 @@ class Solution213 {
         }
         return last2
     }
+    // 第二遍练习
+    // 实际上就是比较0-(n - 1) ，1-(n-2)的比较大小
+    func rob2(_ nums: [Int]) -> Int {
+        if nums.count == 0 {
+            return 0
+        }
+        if nums.count == 1 {
+            return nums[0]
+        }
+        let one = oneRob2(start: 0, end: nums.count - 2, nums: nums)
+        let two = oneRob2(start: 1, end: nums.count - 1, nums: nums)
+        return max(one, two)
+    }
+    
+    func oneRob2(start: Int, end: Int, nums: [Int]) -> Int {
+        var x = 0 // 最左一个值
+        var y = 0 // 次左值
+        var z = 0 // 当值
+        for i in start...end {
+            y = z
+            z = max(y, x + nums[i])
+            x = y
+        }
+        return z
+    }
+
     static func test() {
         let array = [2,3,2]
-        let result = Solution213().rob(array)
+//        let array = [4,1,2,7,5,3,1]
+        let result = Solution213().rob2(array)
         print(result)
     }
 }

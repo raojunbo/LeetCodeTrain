@@ -71,9 +71,26 @@ class Solution121 {
         }
         return result
     }
+    // 第四边练习(很easy的就解决了)
+    func maxProfit4(_ prices: [Int]) -> Int {
+        if prices.count == 0 {
+            return 0
+        }
+        var minP = prices[0]
+        var result = 0
+        for i in 0..<prices.count {
+            let item = prices[i]
+            if item < minP {
+                minP = item
+            }
+            result = max(result, item - minP)
+        }
+        return result
+    }
+    
     static func test() {
         let array = [7,1,5,3,6,4]
-        let result = Solution121().maxProfit3(array)
+        let result = Solution121().maxProfit4(array)
         print(result)
     }
 }
