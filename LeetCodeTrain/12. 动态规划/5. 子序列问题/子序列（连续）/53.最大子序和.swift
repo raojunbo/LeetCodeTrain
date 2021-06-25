@@ -65,12 +65,26 @@ class Solution53 {
         }
         return maxResult
     }
-    
+    // 第三遍练习
+    // 定义dp[i]表示 第i个元素结尾的最大子序和
+    func maxSubArray3(_ nums: [Int]) -> Int {
+        var dp = Array(repeating: 0, count: nums.count + 1)
+        for i in 1...nums.count {
+            let v = nums[i]
+            if v > 0 {
+                dp[i] = max(dp[i - 1], dp[i - 1] + nums[i])
+            } else {
+                dp[i] = v
+            }
+           
+        }
+        return 0
+    }
     static func test() {
-//        let array = [-2, 1, -3, 4, -1 ,2, 1, -5 ,4]
+        let array = [-2, 1, -3, 4, -1 ,2, 1, -5 ,4]
 //        let array = [1]
-        let array = [5,4,-1,7,8]
-        let result = Solution53().maxSubArray2(array)
+//        let array = [5,4,-1,7,8]
+        let result = Solution53().maxSubArray3(array)
         print(result)
     }
 }

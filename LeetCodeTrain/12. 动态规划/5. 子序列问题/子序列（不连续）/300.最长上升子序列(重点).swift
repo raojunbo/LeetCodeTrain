@@ -33,8 +33,8 @@ class Solution300 {
     
     // 第二遍练习(第二遍练习时，还是有点找不到北，原因是不知道怎么去定义状态转移方程)
     // 最长递增子序列
-    // 这里的逻辑核心是以i结尾，怎么去推导出dp[i]
-    // dp[i]表示以i结尾的最长子序列的长度
+    // dp[i]表示以nums[i]的值结尾的最长子序列的长度
+    // 这道题在理解出现问题
     func lengthOfLIS2(_ nums: [Int]) -> Int {
         if nums.count == 0 {
             return 0
@@ -51,12 +51,12 @@ class Solution300 {
                     dp[i] = max(dp[i], dp[j] + 1)
                 }
             }
-            // 求出
+            // 求出的dp[nums.count - 1] 不就是最长的序列
             if dp[i] > result {
                 result = dp[i]
             }
         }
-        return dp[nums.count - 1]
+        return result
     }
     
     static func test() {
@@ -64,8 +64,8 @@ class Solution300 {
         let nums2 = [0,1,0,3,2,3]
         let nums3 = [7,7,7,7,7,7,7]
         let num4 = [4,10,4,3,8,9]
-        let num5 = [0,1,0,3,2,3]
-        let result = Solution300().lengthOfLIS2(num4)
+        let num5 = [1,3,6,7,9,4,10,5,6]
+        let result = Solution300().lengthOfLIS2(num5)
         print(result)
     }
 }

@@ -113,11 +113,32 @@ class Solution1143 {
         }
         return dp[colsNums.count]
     }
+    // 第三遍练习
+    func longestCommonSubsequence5(_ text1: String, _ text2: String) -> Int {
+        let text1Array = Array(text1)
+        let text2Array = Array(text2)
+        // 定义dp[i][j] i 表示第一个数组以i结尾的，j 表示第二个数组以j结尾
+        // dp[i][j] 表示最长功能子序列
+        var dp = Array(repeating: Array(repeating:0, count: text2Array.count + 1), count: text1Array.count + 1)
+        for i in 1...text1Array.count {
+            for j in 1...text2Array.count {
+                // 如果相等
+                if text1Array[i - 1] == text2Array[j - 1] {
+                    dp[i][j] = dp[i - 1][j - 1] + 1
+                }else {
+                // 若果不相等（因为是子序列， 不相等时，其值为上，或者左中的较大值）
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+                }
+            }
+        }
+        print(dp)
+        return dp[text1Array.count][text2Array.count]
+    }
     
     static func test() {
         let text1 = "1359"
         let text2 = "149"
-        let result = Solution1143().longestCommonSubsequence3(text1, text2)
+        let result = Solution1143().longestCommonSubsequence5(text1, text2)
         print(result)
     }
 }

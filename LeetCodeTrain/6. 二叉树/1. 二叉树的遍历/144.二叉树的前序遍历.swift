@@ -35,6 +35,24 @@ class Solution144 {
         preOrderT(root.left, result: &result)
         preOrderT(root.right, result: &result)
     }
+    // 第二遍练习
+    // 定义函数输入与输出
+    //
+    func preorderTraversal2(_ root: TreeNode?) -> [Int] {
+
+    }
+    func preorderT(_ root: TreeNode?) {
+        
+    }
+    static func test() {
+        let node1 = Node(1)
+        let node2 = Node(2)
+        let node3 = Node(3)
+        node1.right = node2
+        node2.let = node3
+        let result = Solution144().preorderTraversal2(rootNode)
+    }
+    
 }
 // @lc code=end
 
