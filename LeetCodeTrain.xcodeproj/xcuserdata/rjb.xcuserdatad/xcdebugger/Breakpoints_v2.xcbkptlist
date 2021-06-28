@@ -142,19 +142,19 @@
             symbolName = "*0x100006d9e">
             <Locations>
                <Location
-                  uuid = "55980A93-08D7-40BA-BD3B-708A97B29673 - fdc86b5b7db2d6c2"
+                  uuid = "55980A93-08D7-40BA-BD3B-708A97B29673 - 483b4080d48db225"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LeetCodeTrain.Solution20.isValid(Swift.String) -&gt; Swift.Bool"
+                  symbolName = "static LeetCodeTrain.Solution19.test() -&gt; ()"
                   moduleName = "LeetCodeTrain"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/LeetCodeTrain/4.%20%E6%A0%88/20.%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.swift"
+                  urlString = "file:///Users/rjb/Desktop/gitwork/LeetCodeTrain/LeetCodeTrain/2.%20%E9%93%BE%E8%A1%A8/19.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E7%BB%93%E7%82%B9.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "1118">
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "510">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1196,6 +1196,38 @@
             startingLineNumber = "19"
             endingLineNumber = "19"
             landmarkName = "numSquares(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "899A16D1-07B9-46CF-A06F-1192F22374D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTrain/9. &#x56de;&#x6eaf;/&#x7ec4;&#x5408;&#x95ee;&#x9898;/17. &#x7535;&#x8bdd;&#x53f7;&#x7801;&#x7684;&#x5b57;&#x6bcd;&#x7ec4;&#x5408;(&#x56de;&#x6eaf;&#x6cd5;).swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "test()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50243D32-32C7-45AC-9D95-F8FCEDD41442"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTrain/9. &#x56de;&#x6eaf;/&#x7ec4;&#x5408;&#x95ee;&#x9898;/17. &#x7535;&#x8bdd;&#x53f7;&#x7801;&#x7684;&#x5b57;&#x6bcd;&#x7ec4;&#x5408;(&#x56de;&#x6eaf;&#x6cd5;).swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "digitsBrower(_:start:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -69,6 +69,8 @@ class Solution17 {
         }
         return letters
     }
+    
+    
     static func test(){
         let array = "23"
         let solution = Solution17()

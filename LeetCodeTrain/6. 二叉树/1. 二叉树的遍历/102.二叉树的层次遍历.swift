@@ -46,6 +46,37 @@ class Solution102 {
         return result
     }
     
+    // 层序遍历（第二遍方法,虽然是自己写出来的。但不够精炼）
+    // 层序遍历采用队列
+    func levelOrder2(_ root: TreeNode?) -> [[Int]] {
+        var result: [[Int]] = []
+        guard let root = root else {
+            return result
+        }
+        // 初始化
+        var queue: [TreeNode] = [root]
+        while queue.count != 0 {
+            var levelArray: [Int] = []
+            var remainSize = queue.count
+            // 出队
+            while remainSize > 0 {
+                let first = queue.removeFirst()
+                remainSize -= 1
+                // 加入结果
+                levelArray.append(first.val)
+                // 左边
+                if let left = first.left {
+                    queue.append(left)
+                }
+                // 右边
+                if let right =  first.right {
+                    queue.append(right)
+                }
+            }
+            result.append(levelArray)
+        }
+        return result
+    }
     static func test() {
         let node3 = TreeNode(3)
         let node9 = TreeNode(9)
@@ -57,8 +88,8 @@ class Solution102 {
         node3.right = node20
         node20.left = node15
         node20.right = node7
-        
-        let result = Solution102().levelOrder(node3)
+//        [[3], [9, 20], [15, 7]]
+        let result = Solution102().levelOrder2(node3)
         print(result)
         
     }

@@ -82,7 +82,36 @@ class Solution94 {
         return array
     }
     
-  
+    
+    
+    
+    // 第二遍练习递归法(轻松写出)
+    // 递归输入与输出
+    // 递归终止表达式
+    func inorderTraversal3(_ root: TreeNode?) -> [Int] {
+        var array: [Int] = []
+        inorderT3(root, array: &array)
+        return array
+    }
+    func inorderT3(_ root: TreeNode?, array: inout [Int]) {
+        if root == nil {
+            return
+        }
+        // 左 根 右
+        inorderT3(root?.left, array: &array)
+        array.append(root!.val)
+        inorderT3(root?.right, array: &array)
+    }
+        //采用循环迭代的方法
+    static func test() {
+        let node1 = TreeNode(1)
+        let node2 = TreeNode(2)
+        let node3 = TreeNode(3)
+        node1.right = node2
+        node2.left = node3
+        let result = Solution94().inorderTraversal3(node1)
+        print(result)
+    }
     
 }
 // @lc code=end
