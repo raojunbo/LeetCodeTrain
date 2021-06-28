@@ -39,7 +39,7 @@
 		3453C77C25AB5D2C00A15CE3 /* 152.乘积最大子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C77B25AB5D2C00A15CE3 /* 152.乘积最大子数组.swift */; };
 		34560509254798E000E27201 /* 189.旋转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34560508254798E000E27201 /* 189.旋转数组.swift */; };
 		3465AC772647EF5000A8E6D3 /* 栈的总结.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465AC762647EF5000A8E6D3 /* 栈的总结.swift */; };
-		3465E831266224A300DB5C3B /* 17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465E830266224A300DB5C3B /* 17. 电话号码的字母组合.swift */; };
+		3465E831266224A300DB5C3B /* 17. 电话号码的字母组合(迭代法).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465E830266224A300DB5C3B /* 17. 电话号码的字母组合(迭代法).swift */; };
 		3465E83526624BA100DB5C3B /* 101. 对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465E83426624BA100DB5C3B /* 101. 对称二叉树.swift */; };
 		3465E8392662529100DB5C3B /* 114. 二叉树展开为链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465E8382662529100DB5C3B /* 114. 二叉树展开为链表.swift */; };
 		3465E83D266390FF00DB5C3B /* 200. 岛屿的数量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465E83C266390FF00DB5C3B /* 200. 岛屿的数量.swift */; };
@@ -157,6 +157,10 @@
 		ED380A9A251DEDB2004FD591 /* 70.爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A99251DEDB2004FD591 /* 70.爬楼梯.swift */; };
 		ED5529132514B4C800B225F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5529122514B4C800B225F8 /* main.swift */; };
 		ED55291A2514B4F800B225F8 /* 146.lru缓存机制.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5529192514B4F800B225F8 /* 146.lru缓存机制.swift */; };
+		ED8C6C082689A78F00E34A2C /* 40. 组合总和II(重要).swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C6C072689A78F00E34A2C /* 40. 组合总和II(重要).swift */; };
+		ED8C6C0C2689BF3400E34A2C /* 131. 分割回文串(经典难题).swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C6C0B2689BF3400E34A2C /* 131. 分割回文串(经典难题).swift */; };
+		ED8C6C102689C61100E34A2C /* 回溯总结.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C6C0F2689C61100E34A2C /* 回溯总结.swift */; };
+		ED8C6C132689D6DE00E34A2C /* 93. 复原IP地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C6C122689D6DE00E34A2C /* 93. 复原IP地址.swift */; };
 		EDD11FE82684376C002AB106 /* 337. 打家劫舍III(重点).swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD11FE72684376C002AB106 /* 337. 打家劫舍III(重点).swift */; };
 		EDD11FF026856D87002AB106 /* 714. 买卖股票的最佳时机含手续费.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD11FEF26856D87002AB106 /* 714. 买卖股票的最佳时机含手续费.swift */; };
 		EDD11FFC2685A7A0002AB106 /* 674. 最长连续递增序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD11FFB2685A7A0002AB106 /* 674. 最长连续递增序列.swift */; };
@@ -164,6 +168,7 @@
 		EDD120092685D8CE002AB106 /* 1035. 不相交的线(没做出来).swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD120082685D8CE002AB106 /* 1035. 不相交的线(没做出来).swift */; };
 		EDD1200D2685DF92002AB106 /* 二叉树总结.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1200C2685DF92002AB106 /* 二叉树总结.swift */; };
 		EDD120122685E2B9002AB106 /* 递归总结.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD120112685E2B9002AB106 /* 递归总结.swift */; };
+		EDD1201D268960C7002AB106 /* 17. 电话号码的字母组合(回溯法).swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1201C268960C7002AB106 /* 17. 电话号码的字母组合(回溯法).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -212,7 +217,7 @@
 		3453C77B25AB5D2C00A15CE3 /* 152.乘积最大子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "152.乘积最大子数组.swift"; sourceTree = "<group>"; };
 		34560508254798E000E27201 /* 189.旋转数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "189.旋转数组.swift"; sourceTree = "<group>"; };
 		3465AC762647EF5000A8E6D3 /* 栈的总结.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "栈的总结.swift"; sourceTree = "<group>"; };
-		3465E830266224A300DB5C3B /* 17. 电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17. 电话号码的字母组合.swift"; sourceTree = "<group>"; };
+		3465E830266224A300DB5C3B /* 17. 电话号码的字母组合(迭代法).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17. 电话号码的字母组合(迭代法).swift"; sourceTree = "<group>"; };
 		3465E83426624BA100DB5C3B /* 101. 对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101. 对称二叉树.swift"; sourceTree = "<group>"; };
 		3465E8382662529100DB5C3B /* 114. 二叉树展开为链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "114. 二叉树展开为链表.swift"; sourceTree = "<group>"; };
 		3465E83C266390FF00DB5C3B /* 200. 岛屿的数量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "200. 岛屿的数量.swift"; sourceTree = "<group>"; };
@@ -331,6 +336,10 @@
 		ED55290F2514B4C800B225F8 /* LeetCodeTrain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeTrain; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5529122514B4C800B225F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ED5529192514B4F800B225F8 /* 146.lru缓存机制.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "146.lru缓存机制.swift"; sourceTree = "<group>"; };
+		ED8C6C072689A78F00E34A2C /* 40. 组合总和II(重要).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "40. 组合总和II(重要).swift"; sourceTree = "<group>"; };
+		ED8C6C0B2689BF3400E34A2C /* 131. 分割回文串(经典难题).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "131. 分割回文串(经典难题).swift"; sourceTree = "<group>"; };
+		ED8C6C0F2689C61100E34A2C /* 回溯总结.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "回溯总结.swift"; sourceTree = "<group>"; };
+		ED8C6C122689D6DE00E34A2C /* 93. 复原IP地址.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "93. 复原IP地址.swift"; sourceTree = "<group>"; };
 		EDD11FE72684376C002AB106 /* 337. 打家劫舍III(重点).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "337. 打家劫舍III(重点).swift"; sourceTree = "<group>"; };
 		EDD11FEF26856D87002AB106 /* 714. 买卖股票的最佳时机含手续费.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "714. 买卖股票的最佳时机含手续费.swift"; sourceTree = "<group>"; };
 		EDD11FFB2685A7A0002AB106 /* 674. 最长连续递增序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "674. 最长连续递增序列.swift"; sourceTree = "<group>"; };
@@ -338,6 +347,7 @@
 		EDD120082685D8CE002AB106 /* 1035. 不相交的线(没做出来).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1035. 不相交的线(没做出来).swift"; sourceTree = "<group>"; };
 		EDD1200C2685DF92002AB106 /* 二叉树总结.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二叉树总结.swift"; sourceTree = "<group>"; };
 		EDD120112685E2B9002AB106 /* 递归总结.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "递归总结.swift"; sourceTree = "<group>"; };
+		EDD1201C268960C7002AB106 /* 17. 电话号码的字母组合(回溯法).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17. 电话号码的字母组合(回溯法).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,7 +406,6 @@
 		3465E82F2662247000DB5C3B /* 17. 深度优先搜索 */ = {
 			isa = PBXGroup;
 			children = (
-				3465E830266224A300DB5C3B /* 17. 电话号码的字母组合.swift */,
 				3465E83426624BA100DB5C3B /* 101. 对称二叉树.swift */,
 				3465E83C266390FF00DB5C3B /* 200. 岛屿的数量.swift */,
 				3465E83F2663AC1700DB5C3B /* 207. 可程表.swift */,
@@ -411,6 +420,13 @@
 			isa = PBXGroup;
 			children = (
 				346FC10D256141310020380D /* 22.括号生成.swift */,
+				3465E830266224A300DB5C3B /* 17. 电话号码的字母组合(迭代法).swift */,
+				EDD1201C268960C7002AB106 /* 17. 电话号码的字母组合(回溯法).swift */,
+				34F797BD26566A1F00D09696 /* 39. 组合总和.swift */,
+				ED8C6C0F2689C61100E34A2C /* 回溯总结.swift */,
+				ED8C6C072689A78F00E34A2C /* 40. 组合总和II(重要).swift */,
+				ED8C6C0B2689BF3400E34A2C /* 131. 分割回文串(经典难题).swift */,
+				ED8C6C122689D6DE00E34A2C /* 93. 复原IP地址.swift */,
 			);
 			path = "9. 回溯";
 			sourceTree = "<group>";
@@ -530,7 +546,6 @@
 				34F08E8E26439A3100E50E61 /* 75.颜色分类.swift */,
 				34F08E912643CCFC00E50E61 /* 面试题 16.16. 部分排序.swift */,
 				ED380A90251DC179004FD591 /* 1.两数之和.swift */,
-				34F797BD26566A1F00D09696 /* 39. 组合总和.swift */,
 				34F797C02657630300D09696 /* 48. 旋转图像.swift */,
 				34F797CC2658B7C900D09696 /* 78. 子集.swift */,
 				34F797CF2658EAC800D09696 /* 79. 单词搜索.swift */,
@@ -908,12 +923,15 @@
 				4B0C30EF26799BFC00C8E374 /* 377. 组合总和IV(排列问题).swift in Sources */,
 				EDD120122685E2B9002AB106 /* 递归总结.swift in Sources */,
 				34F797C72658A86000D09696 /* 62. 不同路径.swift in Sources */,
+				ED8C6C0C2689BF3400E34A2C /* 131. 分割回文串(经典难题).swift in Sources */,
+				ED8C6C132689D6DE00E34A2C /* 93. 复原IP地址.swift in Sources */,
 				34F08E952643E64F00E50E61 /* 数组总结.swift in Sources */,
 				3453C77325AAE2DE00A15CE3 /* 45.跳跃游戏-ii.swift in Sources */,
 				EDD1200D2685DF92002AB106 /* 二叉树总结.swift in Sources */,
 				3465E84326648E0100DB5C3B /* 124. 二叉树中的最大路径和.swift in Sources */,
 				346FC10E256141310020380D /* 22.括号生成.swift in Sources */,
 				34977AAD25C6DFB60040C7C1 /* 169.多数元素.swift in Sources */,
+				ED8C6C082689A78F00E34A2C /* 40. 组合总和II(重要).swift in Sources */,
 				ED380A9A251DEDB2004FD591 /* 70.爬楼梯.swift in Sources */,
 				3465E8482664C34600DB5C3B /* 301. 删除无效的括号.swift in Sources */,
 				3465E8532665EC9000DB5C3B /* 240. 搜索二维矩阵2.swift in Sources */,
@@ -973,8 +991,10 @@
 				3451406C25371F3500DC3CC0 /* 206.反转链表.swift in Sources */,
 				34F797B826564EDC00D09696 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 				3439ECAA2636A1D100E84926 /* 72.编辑距离.swift in Sources */,
+				EDD1201D268960C7002AB106 /* 17. 电话号码的字母组合(回溯法).swift in Sources */,
 				34D0C7AD2647D3EC005BF9ED /* 234. 回文链表.swift in Sources */,
 				347E0A6A259F68DD009138AA /* 300.最长上升子序列(重点).swift in Sources */,
+				ED8C6C102689C61100E34A2C /* 回溯总结.swift in Sources */,
 				34F08F432644AEA100E50E61 /* 2. 两数相加.swift in Sources */,
 				34F797CD2658B7C900D09696 /* 78. 子集.swift in Sources */,
 				4B1A78F8267304DE0070E26B /* 416. 分割等和子集.swift in Sources */,
@@ -1029,7 +1049,7 @@
 				34AA7C7C256ABA5E007C56C0 /* 515.在每个树行中找最大值.swift in Sources */,
 				344EED28254EED2C00B083FE /* 239.滑动窗口最大值.swift in Sources */,
 				3424B38E25B0A1EE007FB1E4 /* 198.打家劫舍.swift in Sources */,
-				3465E831266224A300DB5C3B /* 17. 电话号码的字母组合.swift in Sources */,
+				3465E831266224A300DB5C3B /* 17. 电话号码的字母组合(迭代法).swift in Sources */,
 				34F08E1626419AE400E50E61 /* 剑指 Offer 32 从上到下打印二叉树3.swift in Sources */,
 				34F797D326590BBD00D09696 /* 287 选找重复数.swift in Sources */,
 				ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */,
