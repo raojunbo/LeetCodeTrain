@@ -23,14 +23,16 @@ class Solution93 {
     }
     
     func backTrace(_ array: [String], start: Int) {
+        // 这个剪枝非常重要
+        if path.count > 4 {
+            return
+        }
         // 最终的path正好是4，且正好拼完
         if path.count == 4 && start == array.count {
             result.append(path.joined(separator: "."))
             return
         }
-        if start == array.count {
-            return
-        }
+        // 不通的分割
         for i in start..<array.count {
             // i表示分割字符串的结束点
             let subArray = array[start...i]
@@ -46,21 +48,24 @@ class Solution93 {
             path.removeLast()
         }
     }
+    
     func isValid( s: [String], start: Int, end: Int) -> Bool {
         if (start > end) {
             return false;
         }
-        if (s[start] == "0" && start != end) { // 0开头的数字不合法
+        // 0开头的数字不合法
+        if (s[start] == "0" && start != end) {
             return false;
         }
+        // 计算数值
         var num = 0;
         for i in start...end {
             if (s[i] > "9"  || s[i] < "0" ) { // 遇到⾮数字字符不合法
                 return false;
             }
-            // 字符的相差值 有点问题
-//            Character(s[i]) - Character("0")
-//            num = num * 10 + (s[i] - "0" );
+            // 字符的相差值
+            let si = (s[i] as NSString).intValue
+            num = num * 10 + Int(si);
             if (num > 255) { // 如果⼤于255了不合法
                 return false;
             }

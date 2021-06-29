@@ -161,6 +161,7 @@
 		ED8C6C0C2689BF3400E34A2C /* 131. 分割回文串(经典难题).swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C6C0B2689BF3400E34A2C /* 131. 分割回文串(经典难题).swift */; };
 		ED8C6C102689C61100E34A2C /* 回溯总结.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C6C0F2689C61100E34A2C /* 回溯总结.swift */; };
 		ED8C6C132689D6DE00E34A2C /* 93. 复原IP地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C6C122689D6DE00E34A2C /* 93. 复原IP地址.swift */; };
+		ED8C6C17268AC1B200E34A2C /* 90. 子集II.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C6C16268AC1B200E34A2C /* 90. 子集II.swift */; };
 		EDD11FE82684376C002AB106 /* 337. 打家劫舍III(重点).swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD11FE72684376C002AB106 /* 337. 打家劫舍III(重点).swift */; };
 		EDD11FF026856D87002AB106 /* 714. 买卖股票的最佳时机含手续费.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD11FEF26856D87002AB106 /* 714. 买卖股票的最佳时机含手续费.swift */; };
 		EDD11FFC2685A7A0002AB106 /* 674. 最长连续递增序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD11FFB2685A7A0002AB106 /* 674. 最长连续递增序列.swift */; };
@@ -340,6 +341,7 @@
 		ED8C6C0B2689BF3400E34A2C /* 131. 分割回文串(经典难题).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "131. 分割回文串(经典难题).swift"; sourceTree = "<group>"; };
 		ED8C6C0F2689C61100E34A2C /* 回溯总结.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "回溯总结.swift"; sourceTree = "<group>"; };
 		ED8C6C122689D6DE00E34A2C /* 93. 复原IP地址.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "93. 复原IP地址.swift"; sourceTree = "<group>"; };
+		ED8C6C16268AC1B200E34A2C /* 90. 子集II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "90. 子集II.swift"; sourceTree = "<group>"; };
 		EDD11FE72684376C002AB106 /* 337. 打家劫舍III(重点).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "337. 打家劫舍III(重点).swift"; sourceTree = "<group>"; };
 		EDD11FEF26856D87002AB106 /* 714. 买卖股票的最佳时机含手续费.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "714. 买卖股票的最佳时机含手续费.swift"; sourceTree = "<group>"; };
 		EDD11FFB2685A7A0002AB106 /* 674. 最长连续递增序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "674. 最长连续递增序列.swift"; sourceTree = "<group>"; };
@@ -427,6 +429,8 @@
 				ED8C6C072689A78F00E34A2C /* 40. 组合总和II(重要).swift */,
 				ED8C6C0B2689BF3400E34A2C /* 131. 分割回文串(经典难题).swift */,
 				ED8C6C122689D6DE00E34A2C /* 93. 复原IP地址.swift */,
+				34F797CC2658B7C900D09696 /* 78. 子集.swift */,
+				ED8C6C16268AC1B200E34A2C /* 90. 子集II.swift */,
 			);
 			path = "9. 回溯";
 			sourceTree = "<group>";
@@ -547,7 +551,6 @@
 				34F08E912643CCFC00E50E61 /* 面试题 16.16. 部分排序.swift */,
 				ED380A90251DC179004FD591 /* 1.两数之和.swift */,
 				34F797C02657630300D09696 /* 48. 旋转图像.swift */,
-				34F797CC2658B7C900D09696 /* 78. 子集.swift */,
 				34F797CF2658EAC800D09696 /* 79. 单词搜索.swift */,
 				34F797C32657708500D09696 /* 56. 合并区间.swift */,
 				34F797D5265923B000D09696 /* 448. 找到所有数组中消失的数字.swift */,
@@ -919,6 +922,7 @@
 				34FEB49325409D5700B3A94E /* 26.删除排序数组中的重复项.swift in Sources */,
 				34F797C42657708500D09696 /* 56. 合并区间.swift in Sources */,
 				34ED2838266F5BA9006D4020 /* 动态规划笔记.swift in Sources */,
+				ED8C6C17268AC1B200E34A2C /* 90. 子集II.swift in Sources */,
 				34F08E9B2643E9A700E50E61 /* 203. 移除链表元素.swift in Sources */,
 				4B0C30EF26799BFC00C8E374 /* 377. 组合总和IV(排列问题).swift in Sources */,
 				EDD120122685E2B9002AB106 /* 递归总结.swift in Sources */,
