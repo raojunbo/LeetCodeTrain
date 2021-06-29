@@ -7,4 +7,5 @@
 //
 
 import Foundation
-Solution17_SecondTrain.test()
+Solution51_2.test()
+
