@@ -17,15 +17,6 @@
  * }
  */
 
-public class Node {
-    public var val:Int
-    public var children:[Node]
-    init(_ val:Int) {
-        self.val = val
-        self.children = []
-    }
-}
-
 class Solution590 {
     func postorder(_ root: Node?) -> [Int] {
         var result:[Int] = []

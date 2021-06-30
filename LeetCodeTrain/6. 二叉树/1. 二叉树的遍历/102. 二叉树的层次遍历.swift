@@ -19,14 +19,14 @@
  * }
  */
 class Solution102 {
-    var queue:[TreeNode] = []
-    var result:[[Int]] = []
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
         //层序遍历；即广度优先遍历
         //层序遍历用队列
+        var result:[[Int]] = []
         guard let root = root else {
-            return []
+            return result
         }
+        var queue:[TreeNode] = []
         queue.append(root)
         while !queue.isEmpty {
             let size = queue.count
@@ -46,6 +46,38 @@ class Solution102 {
         return result
     }
     
+    // 第二遍练习
+    // 层遍历需用到队列
+    func levelOrder2(_ root: TreeNode?) -> [[Int]] {
+        var result:[[Int]] = []
+        guard let root = root else {
+            return result
+        }
+        var queue:[TreeNode] = []
+        queue.append(root)
+        // 外层
+        while !queue.isEmpty {
+            // 当前层的大小
+            var size = queue.count
+            var levelArray: [Int] = []
+            while size > 0 {
+                // 出队
+                let node = queue.removeFirst()
+                levelArray.append(node.val)
+                size -= 1
+                // 将左右节点入栈
+                if let left = node.left {
+                    queue.append(left)
+                }
+                if let right = node.right {
+                    queue.append(right)
+                }
+            }
+            result.append(levelArray)
+        }
+        return result
+    }
+    
     static func test() {
         let node3 = TreeNode(3)
         let node9 = TreeNode(9)
@@ -58,9 +90,8 @@ class Solution102 {
         node20.left = node15
         node20.right = node7
         
-        let result = Solution102().levelOrder(node3)
+        let result = Solution102().levelOrder2(node3)
         print(result)
-        
     }
 }
 // @lc code=end

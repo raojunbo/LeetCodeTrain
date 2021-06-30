@@ -34,6 +34,15 @@ class Solution {
             preorderT(item, result: &result)
         }
     }
+    
+    // n叉树的前序遍历
+    // 第二变练习
+//    func preorder2(_ root: Node?) -> [Int] {
+//        
+//    }
+    static func test() {
+            
+    }
 }
 // @lc code=end
 
