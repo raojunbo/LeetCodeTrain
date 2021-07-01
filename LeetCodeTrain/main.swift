@@ -8,4 +8,3 @@
 
 import Foundation
 Solution51_2.test()
-

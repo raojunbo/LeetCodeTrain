@@ -22,14 +22,11 @@ class Solution429 {
     //层序遍历实际上就是一种广度优先搜索
     func levelOrder(_ root: Node?) -> [[Int]] {
         var result:[[Int]] = []
-        
         guard let root = root else {
             return result
         }
-        
         var queue:[Node] = []
         queue.append(root)
-        
         while !queue.isEmpty {
             var levelArray:[Int] = []
             let levelSize = queue.count //先保存每一层的个数,这一点非常重要
@@ -37,6 +34,32 @@ class Solution429 {
                 let item =  queue.removeFirst()
                 levelArray.append(item.val)
                 queue.append(contentsOf: item.children)
+            }
+            result.append(levelArray)
+        }
+        return result
+    }
+    
+    // 第二遍练习
+    // n叉树的层序遍历
+    // 其思路与二叉树的层序遍历相同
+    // 层序遍历实际上已经形成了模板
+    func levelOrder2(_ root: Node?) -> [[Int]] {
+        var result:[[Int]] = []
+        guard let root = root else {
+            return result
+        }
+        var queue: [Node] = [root]
+        while !queue.isEmpty {
+            var levelArray: [Int] = []
+            var size = queue.count
+            while size > 0 {
+                let node = queue.removeFirst()
+                levelArray.append(node.val)
+                for item in node.children {
+                    queue.append(item)
+                }
+                size -= 1
             }
             result.append(levelArray)
         }
@@ -56,8 +79,10 @@ class Solution429 {
         rootNode.children.append(node4)
         node3.children.append(node5)
         node3.children.append(node6)
-        
-        let result = Solution429().levelOrder(rootNode)
+//        [[1], [3, 2, 4], [5, 6]]
+//        [[1], [3, 2, 4], [5, 6]]
+        let result = Solution429().levelOrder2(rootNode)
+        print(result)
     }
 }
 // @lc code=end
