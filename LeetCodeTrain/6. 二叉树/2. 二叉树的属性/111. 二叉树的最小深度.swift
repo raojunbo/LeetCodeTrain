@@ -66,6 +66,33 @@ class Solution111 {
         return deep + 1
     }
     
+    // 第二次练习(有点细节需要处理)
+    // 二叉树的最小深度
+    // 思路 同样是采用深度优先遍历
+    func minDepth3(_ root: TreeNode?) -> Int {
+        return minDepathRecuse(root)
+    }
+    func minDepathRecuse(_ node: TreeNode?) -> Int {
+        // 当根节点为空
+        guard let node = node else {
+            return 0
+        }
+        var minV = Int.max
+        // 如果左右节点都是空
+        if node.left == nil && node.right == nil {
+            minV = 0
+        }
+        // 只有左边是空
+        if node.left != nil {
+            minV = min(minDepathRecuse(node.left), minV)
+        }
+        // 只有右边是空
+        if node.right != nil {
+            minV  = min(minDepathRecuse(node.right), minV)
+        }
+        return minV + 1
+    }
+    
     static func test() {
         let rootNode = TreeNode(3)
         let node9 = TreeNode(9)
@@ -78,11 +105,9 @@ class Solution111 {
         node20.left = node15
         node20.right = node7
         
-        let level = Solution111().minDepth2(rootNode)
+        let level = Solution111().minDepth3(rootNode)
         print(level)
     }
-    
-    
 }
 // @lc code=end
 
