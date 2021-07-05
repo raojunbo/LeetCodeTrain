@@ -21,7 +21,7 @@
 class Solution105 {
     //根据一颗树的前序遍历和中序遍历构造二叉树
     func buildTree(_ preorder: [Int], _ inorder: [Int]) -> TreeNode? {
-       let root = build(preorder, inorder, preStart: 0, preEnd: preorder.count - 1, inStart: 0, inEnd: inorder.count - 1)
+        let root = build(preorder, inorder, preStart: 0, preEnd: preorder.count - 1, inStart: 0, inEnd: inorder.count - 1)
         return root
     }
     
@@ -31,7 +31,7 @@ class Solution105 {
                preEnd: Int,
                inStart: Int,
                inEnd: Int
-               ) -> TreeNode? {
+    ) -> TreeNode? {
         // 退出条件
         if preStart > preEnd {
             return nil
@@ -69,6 +69,7 @@ class Solution105 {
         let inorder = [9,3,15,20,7]
         let solution = Solution105()
         let root = solution.buildTree(preorder, inorder)
+        print(root)
     }
 }
 // @lc code=end
