@@ -7,4 +7,4 @@
 //
 
 import Foundation
-Solution236_2.test()
+Solution701.test()

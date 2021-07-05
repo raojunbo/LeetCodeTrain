@@ -10,22 +10,27 @@ import Foundation
 
 class Solution701 {
     // 向一个二叉搜索树中插入数据，保证还是一个二叉搜索树
-    // 里面的节点值都不相同
-    // 插入值时，实际上还要保持搜索树的规则；即root比其左边要大；root比其右边要小
-    // 如果右边没有值了。放在右边即可
-    //
+    // 利用二叉搜索树的特性，左边的都小于根，右边的都大于根
+    // 在遇到nil时，将新的节点加入其位置就可以了。
     func insertIntoBST(_ root: TreeNode?, _ val: Int) -> TreeNode? {
-        return preorder(root, val)
+        return traver(root, val)
     }
-    func preorder(_ root: TreeNode?, _ val: Int) -> TreeNode?{
+    func traver(_ root: TreeNode?, _ val: Int) -> TreeNode?{
         guard let root = root else {
-            return nil
+            let node = TreeNode(val)
+            return node
         }
-        if root.val > root.left!.val{
-         return nil
+        // 当前节点已经大于val，在左边寻找查找位置
+        if root.val > val {
+            root.left = traver(root.left, val)
         }
-        return nil
+        // 当前节点已经小于val,在右边寻找尾椎
+        if root.val < val {
+            root.right = traver(root.right, val)
+        }
+        return root
     }
+    
     static func test() {
         let node4 = TreeNode(4)
         let node2 = TreeNode(2)

@@ -99,6 +99,7 @@
 		34D0C7AD2647D3EC005BF9ED /* 234. 回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0C7AC2647D3EC005BF9ED /* 234. 回文链表.swift */; };
 		34DD1EAB266B563400C69DA5 /* 96. 不同的二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD1EAA266B563400C69DA5 /* 96. 不同的二叉搜索树.swift */; };
 		34DD1EAE266B625600C69DA5 /* 139. 单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD1EAD266B625600C69DA5 /* 139. 单词拆分.swift */; };
+		34E1A494269359E6004384D4 /* 450. 删除二叉搜索树中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1A493269359E6004384D4 /* 450. 删除二叉搜索树中的节点.swift */; };
 		34ED2825266DFE2A006D4020 /* 221. 最大正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED2824266DFE2A006D4020 /* 221. 最大正方形.swift */; };
 		34ED2828266E46EE006D4020 /* 85. 最大矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED2827266E46EE006D4020 /* 85. 最大矩形.swift */; };
 		34ED282B266E5551006D4020 /* 647. 回文字串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ED282A266E5551006D4020 /* 647. 回文字串.swift */; };
@@ -303,6 +304,7 @@
 		34D0C7AC2647D3EC005BF9ED /* 234. 回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234. 回文链表.swift"; sourceTree = "<group>"; };
 		34DD1EAA266B563400C69DA5 /* 96. 不同的二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "96. 不同的二叉搜索树.swift"; sourceTree = "<group>"; };
 		34DD1EAD266B625600C69DA5 /* 139. 单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139. 单词拆分.swift"; sourceTree = "<group>"; };
+		34E1A493269359E6004384D4 /* 450. 删除二叉搜索树中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "450. 删除二叉搜索树中的节点.swift"; sourceTree = "<group>"; };
 		34ED2824266DFE2A006D4020 /* 221. 最大正方形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "221. 最大正方形.swift"; sourceTree = "<group>"; };
 		34ED2827266E46EE006D4020 /* 85. 最大矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "85. 最大矩形.swift"; sourceTree = "<group>"; };
 		34ED282A266E5551006D4020 /* 647. 回文字串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "647. 回文字串.swift"; sourceTree = "<group>"; };
@@ -715,6 +717,7 @@
 			isa = PBXGroup;
 			children = (
 				ED1A01BD269313F40096059B /* 701. 二叉搜索树中的插入操作.swift */,
+				34E1A493269359E6004384D4 /* 450. 删除二叉搜索树中的节点.swift */,
 			);
 			path = "7. 二叉搜索树操作";
 			sourceTree = "<group>";
@@ -1153,6 +1156,7 @@
 				34F797D02658EAC800D09696 /* 79. 单词搜索.swift in Sources */,
 				34ED282B266E5551006D4020 /* 647. 回文字串.swift in Sources */,
 				ED1A01BE269313F40096059B /* 701. 二叉搜索树中的插入操作.swift in Sources */,
+				34E1A494269359E6004384D4 /* 450. 删除二叉搜索树中的节点.swift in Sources */,
 				3465E8392662529100DB5C3B /* 114. 二叉树展开为链表.swift in Sources */,
 				3453C77925AAFABC00A15CE3 /* 120.三角形最小路径和.swift in Sources */,
 				4BB4BC73267074DE00C4BBC9 /* 343. 整数拆分.swift in Sources */,
