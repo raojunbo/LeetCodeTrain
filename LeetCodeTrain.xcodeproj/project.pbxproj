@@ -163,6 +163,8 @@
 		4BC429A926784AC300E3667C /* 474. 一和零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429A826784AC300E3667C /* 474. 一和零.swift */; };
 		4BC429AC2678507800E3667C /* Train. 完全背包问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429AB2678507800E3667C /* Train. 完全背包问题.swift */; };
 		4BC429AE2678620400E3667C /* 518. 零钱兑换II(组合问题).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC429AD2678620400E3667C /* 518. 零钱兑换II(组合问题).swift */; };
+		ED1A01BB269309380096059B /* 235. 二叉树搜索树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A01BA269309380096059B /* 235. 二叉树搜索树的最近公共祖先.swift */; };
+		ED1A01BE269313F40096059B /* 701. 二叉搜索树中的插入操作.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A01BD269313F40096059B /* 701. 二叉搜索树中的插入操作.swift */; };
 		ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A90251DC179004FD591 /* 1.两数之和.swift */; };
 		ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */; };
 		ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A96251DDFB4004FD591 /* 283.移动零.swift */; };
@@ -365,6 +367,8 @@
 		4BC429A826784AC300E3667C /* 474. 一和零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "474. 一和零.swift"; sourceTree = "<group>"; };
 		4BC429AB2678507800E3667C /* Train. 完全背包问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Train. 完全背包问题.swift"; sourceTree = "<group>"; };
 		4BC429AD2678620400E3667C /* 518. 零钱兑换II(组合问题).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "518. 零钱兑换II(组合问题).swift"; sourceTree = "<group>"; };
+		ED1A01BA269309380096059B /* 235. 二叉树搜索树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "235. 二叉树搜索树的最近公共祖先.swift"; sourceTree = "<group>"; };
+		ED1A01BD269313F40096059B /* 701. 二叉搜索树中的插入操作.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "701. 二叉搜索树中的插入操作.swift"; sourceTree = "<group>"; };
 		ED380A90251DC179004FD591 /* 1.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
 		ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11.盛最多水的容器.swift"; sourceTree = "<group>"; };
 		ED380A96251DDFB4004FD591 /* 283.移动零.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "283.移动零.swift"; sourceTree = "<group>"; };
@@ -560,8 +564,9 @@
 				EDD120172685E623002AB106 /* 2. 二叉树的属性(深度，平衡，对称，路径) */,
 				EDD120192685E654002AB106 /* 3. 二叉树的构建 */,
 				EDD120182685E635002AB106 /* 4. 二叉树的序列化 */,
-				EDD1201B2685E6D4002AB106 /* 6. 二叉搜索树属性 */,
-				ED9A1D1B268D5C6800841B5B /* 8. 二叉树公共祖先 */,
+				EDD1201B2685E6D4002AB106 /* 5. 二叉搜索树属性 */,
+				ED9A1D1B268D5C6800841B5B /* 6. 二叉树公共祖先 */,
+				ED1A01BC269313BB0096059B /* 7. 二叉搜索树操作 */,
 				EDD1200C2685DF92002AB106 /* 二叉树总结.swift */,
 				34F08E092640D50900E50E61 /* 剑指 Offer 8 二叉树的下一个节点.swift */,
 				34F08E0C2640DA1100E50E61 /* 剑指 Offer 26 树的子结构.swift */,
@@ -706,6 +711,14 @@
 			path = "完全背包问题";
 			sourceTree = "<group>";
 		};
+		ED1A01BC269313BB0096059B /* 7. 二叉搜索树操作 */ = {
+			isa = PBXGroup;
+			children = (
+				ED1A01BD269313F40096059B /* 701. 二叉搜索树中的插入操作.swift */,
+			);
+			path = "7. 二叉搜索树操作";
+			sourceTree = "<group>";
+		};
 		ED5529062514B4C800B225F8 = {
 			isa = PBXGroup;
 			children = (
@@ -832,13 +845,14 @@
 			path = "17. 字符串匹配";
 			sourceTree = "<group>";
 		};
-		ED9A1D1B268D5C6800841B5B /* 8. 二叉树公共祖先 */ = {
+		ED9A1D1B268D5C6800841B5B /* 6. 二叉树公共祖先 */ = {
 			isa = PBXGroup;
 			children = (
 				34AA7C6C256A0641007C56C0 /* 236.二叉树的最近公共祖先.swift */,
 				34B71B1E2691E8B4003FA7D4 /* 236. 二叉树的最近公共祖先(第二遍练习).swift */,
+				ED1A01BA269309380096059B /* 235. 二叉树搜索树的最近公共祖先.swift */,
 			);
-			path = "8. 二叉树公共祖先";
+			path = "6. 二叉树公共祖先";
 			sourceTree = "<group>";
 		};
 		EDD11FF226857519002AB106 /* 5. 子序列问题 */ = {
@@ -973,7 +987,7 @@
 			path = "3. 二叉树的构建";
 			sourceTree = "<group>";
 		};
-		EDD1201B2685E6D4002AB106 /* 6. 二叉搜索树属性 */ = {
+		EDD1201B2685E6D4002AB106 /* 5. 二叉搜索树属性 */ = {
 			isa = PBXGroup;
 			children = (
 				34F08E212642A6C100E50E61 /* 剑指 Offer 54. 二叉搜索树的第k大节点.swift */,
@@ -984,7 +998,7 @@
 				34B71B182691BE48003FA7D4 /* 530. 二叉搜索树的最小绝对差.swift */,
 				34B71B1A2691D82E003FA7D4 /* 501. 二叉搜索树种的众数.swift */,
 			);
-			path = "6. 二叉搜索树属性";
+			path = "5. 二叉搜索树属性";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1105,6 +1119,7 @@
 				34B71B092690AC68003FA7D4 /* 513. 找树左下角的值.swift in Sources */,
 				4BC429A926784AC300E3667C /* 474. 一和零.swift in Sources */,
 				34AA7C7F256ABE24007C56C0 /* 322.零钱兑换.swift in Sources */,
+				ED1A01BB269309380096059B /* 235. 二叉树搜索树的最近公共祖先.swift in Sources */,
 				ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */,
 				34183C8E26887625009A76BC /* 216. 组合总和III.swift in Sources */,
 				34FB7A0825618EA500DE1A5A /* 104. 二叉树的最大深度(深度优先或者层序).swift in Sources */,
@@ -1137,6 +1152,7 @@
 				3465E8402663AC1700DB5C3B /* 207. 可程表.swift in Sources */,
 				34F797D02658EAC800D09696 /* 79. 单词搜索.swift in Sources */,
 				34ED282B266E5551006D4020 /* 647. 回文字串.swift in Sources */,
+				ED1A01BE269313F40096059B /* 701. 二叉搜索树中的插入操作.swift in Sources */,
 				3465E8392662529100DB5C3B /* 114. 二叉树展开为链表.swift in Sources */,
 				3453C77925AAFABC00A15CE3 /* 120.三角形最小路径和.swift in Sources */,
 				4BB4BC73267074DE00C4BBC9 /* 343. 整数拆分.swift in Sources */,

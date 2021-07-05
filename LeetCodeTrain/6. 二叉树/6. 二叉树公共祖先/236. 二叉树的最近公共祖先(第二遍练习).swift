@@ -9,30 +9,35 @@
 import Foundation
 class Solution236_2 {
     // 找最近工作祖先的问题
-    // 中序遍历或者后序遍历都是可以的
-    var parent: TreeNode? = nil
+    // 后序遍历或者后序遍历都是可以的
+    // 后续遍历时典型的回溯法
+    // 这里要找到最近公共祖先。采用一步异步回溯
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
-        postOrder(root, p, q)
-        return parent
+        return postOrder(root, p, q)
     }
-    func postOrder(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> Bool {
+    func postOrder(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
         guard let root = root else {
-            return false
+            return nil
+        }
+        if root === q || root === p {
+            return root
         }
         let left = postOrder(root.left, p, q)
         let right = postOrder(root.right, p, q)
         
-        // 如果子树已经找到
-        if left && right {
-            parent = root
-            return true
+        // 如果都不为nil， 说明root就是最近的公共及节点
+        if left != nil && right != nil {
+            return root
         }
-        // 如果是要找的节点
-        if root === p || root === q {
-            return true
+        // 如果左边找到了
+        if left != nil  {
+            return left
         }
-        let find = left || right
-        return find
+        // 如果是右边找到了
+        if right != nil {
+            return right
+        }
+        return nil
     }
     static func test() {
         let node3 = TreeNode(3)
