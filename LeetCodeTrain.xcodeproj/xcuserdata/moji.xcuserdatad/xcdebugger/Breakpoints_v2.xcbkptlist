@@ -116,5 +116,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22613821-E14B-487E-8436-75BFD0AF7333"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTrain/6. &#x4e8c;&#x53c9;&#x6811;/7. &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x64cd;&#x4f5c;/669. &#x4fee;&#x526a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "test()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5253E59D-515D-49D3-B7AD-7F3EDAE89BED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTrain/6. &#x4e8c;&#x53c9;&#x6811;/7. &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x64cd;&#x4f5c;/538. &#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "test()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF9C7A8B-1A80-4BF1-9320-FDDBFD43D838"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTrain/6. &#x4e8c;&#x53c9;&#x6811;/7. &#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x64cd;&#x4f5c;/538. &#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "test()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
