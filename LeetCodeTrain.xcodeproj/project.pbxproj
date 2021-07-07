@@ -169,6 +169,7 @@
 		ED1A01C02693EF200096059B /* 669. 修剪二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A01BF2693EF200096059B /* 669. 修剪二叉搜索树.swift */; };
 		ED1A01C22694107F0096059B /* 108. 将有序数组转换为二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A01C12694107F0096059B /* 108. 将有序数组转换为二叉搜索树.swift */; };
 		ED1A01C426942B700096059B /* 538. 把二叉搜索树转换为累加树.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A01C326942B700096059B /* 538. 把二叉搜索树转换为累加树.swift */; };
+		ED1A02282695A9270096059B /* 232. 用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A02272695A9270096059B /* 232. 用栈实现队列.swift */; };
 		ED380A91251DC179004FD591 /* 1.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A90251DC179004FD591 /* 1.两数之和.swift */; };
 		ED380A94251DD221004FD591 /* 11.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */; };
 		ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380A96251DDFB4004FD591 /* 283.移动零.swift */; };
@@ -377,6 +378,7 @@
 		ED1A01BF2693EF200096059B /* 669. 修剪二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "669. 修剪二叉搜索树.swift"; sourceTree = "<group>"; };
 		ED1A01C12694107F0096059B /* 108. 将有序数组转换为二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108. 将有序数组转换为二叉搜索树.swift"; sourceTree = "<group>"; };
 		ED1A01C326942B700096059B /* 538. 把二叉搜索树转换为累加树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "538. 把二叉搜索树转换为累加树.swift"; sourceTree = "<group>"; };
+		ED1A02272695A9270096059B /* 232. 用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232. 用栈实现队列.swift"; sourceTree = "<group>"; };
 		ED380A90251DC179004FD591 /* 1.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1.两数之和.swift"; sourceTree = "<group>"; };
 		ED380A93251DD221004FD591 /* 11.盛最多水的容器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11.盛最多水的容器.swift"; sourceTree = "<group>"; };
 		ED380A96251DDFB4004FD591 /* 283.移动零.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "283.移动零.swift"; sourceTree = "<group>"; };
@@ -660,6 +662,7 @@
 			children = (
 				344EED27254EED2C00B083FE /* 239.滑动窗口最大值.swift */,
 				34F097D326511A7C00FDEC05 /* 队列的总结.swift */,
+				ED1A02272695A9270096059B /* 232. 用栈实现队列.swift */,
 			);
 			path = "5. 队列";
 			sourceTree = "<group>";
@@ -1175,6 +1178,7 @@
 				ED380A97251DDFB4004FD591 /* 283.移动零.swift in Sources */,
 				4BC429AE2678620400E3667C /* 518. 零钱兑换II(组合问题).swift in Sources */,
 				34ED2841266F6081006D4020 /* 509. 斐波那契数.swift in Sources */,
+				ED1A02282695A9270096059B /* 232. 用栈实现队列.swift in Sources */,
 				34F08E252642AEF500E50E61 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */,
 				4BB4BC7126706FA300C4BBC9 /* 63. 不同路径II.swift in Sources */,
 				34B71B07269079F8003FA7D4 /* 404. 左叶子之和.swift in Sources */,
