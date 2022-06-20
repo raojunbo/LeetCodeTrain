@@ -58,10 +58,10 @@ class Solution0_1BagTrain {
     }
     
     static func test() {
-        let w = [2, 2, 6, 5, 4]
-        let v = [6, 3, 5, 4, 6]
+        let w = [1, 3, 4]
+        let v =  [15, 20, 30]
         let solution = Solution0_1BagTrain()
-        let result = solution.bagMaxValue(capacity: 10, w: w, v: v)
+        let result = solution.bagMaxValue(capacity: 4, w: w, v: v)
         print(result)
     }
 }

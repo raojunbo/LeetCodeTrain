@@ -21,7 +21,7 @@ class MyQueue {
         return 1
     }
     func peek() -> Int {
-        
+        return 0
     }
     func empty() -> Bool {
         return false
